@@ -1,0 +1,169 @@
+{
+  "frozen_at": "2026-09-29T11:15:22",
+  "note": "冻结后任何改动都会使既有实验结果不可比。改数据 = 重跑全部实验。",
+  "files": {
+    "eval/intent_set.jsonl": {
+      "sha256": "c259bf1d71b02fd31b2f8b17dd1288c912c98f4fc96ae6342695b5c9ebf8593d",
+      "bytes": 88040,
+      "records": 300,
+      "splits": {
+        "dev": 150,
+        "test": 150
+      }
+    },
+    "eval/text2sql_eval.jsonl": {
+      "sha256": "635efc330325d493f79928af0b969b6b0c1fdcedf4ff5d1ad2bc09175df12126",
+      "bytes": 69378,
+      "records": 127,
+      "splits": {
+        "dev": 64,
+        "test": 63
+      }
+    },
+    "eval/rag_eval.jsonl": {
+      "sha256": "94c9f188273c907b1c29f3813625097fc854e4f8c9c6c270c73e31b02c62f42f",
+      "bytes": 17550,
+      "records": 94,
+      "splits": {
+        "dev": 47,
+        "test": 47
+      }
+    },
+    "eval/risk_eval.jsonl": {
+      "sha256": "570d38ddab7a89fc232dfd58f52c709bb021c02c0dfb22c4e77d5f4f474770ba",
+      "bytes": 186168,
+      "records": 220,
+      "splits": {
+        "dev": 110,
+        "test": 110
+      },
+      "kinds": {
+        "citation_mismatch": 20,
+        "discriminative": 12,
+        "full_scan": 6,
+        "no_evidence": 20,
+        "normal": 110,
+        "numeric_tamper": 24,
+        "pii_leak": 8,
+        "sql_overreach": 8,
+        "truncation": 12
+      }
+    },
+    "eval/skill_eval.jsonl": {
+      "sha256": "e8b733238c783e5cf4db1623760a887feceb235ec43be3dfdb920e7a00612eb0",
+      "bytes": 263291,
+      "records": 252,
+      "splits": {
+        "dev": 126,
+        "test": 126
+      }
+    },
+    "eval/match_eval.jsonl": {
+      "sha256": "91dc2bc050e482c1e47c5e0cba2d2879c643fd3add44ec09a274c07fe4ca2c77",
+      "bytes": 430561,
+      "records": 240,
+      "splits": {
+        "dev": 120,
+        "test": 120
+      },
+      "kinds": {
+        "只有nice": 24,
+        "完全匹配": 48,
+        "硬负例": 36,
+        "缺must": 36,
+        "超配": 36,
+        "跨领域": 24,
+        "边缘可转岗": 36
+      }
+    },
+    "data/hr.db": {
+      "sha256": "e21271f630c88f3a17b82dd334617679d000195f652b24945b9f567895a11bb2",
+      "bytes": 589824,
+      "tables": {
+        "attendance": 2226,
+        "candidates": 1349,
+        "departments": 12,
+        "employees": 413,
+        "payroll": 2226,
+        "performance": 742,
+        "recruitment": 64,
+        "training": 730
+      }
+    },
+    "data/policy_chunks.jsonl": {
+      "sha256": "1702de0f4732741c23fb9337addc8310407257fdb203fd5a36ec4cb4b25ae019",
+      "bytes": 98330,
+      "records": 196
+    },
+    "data/hr_data_dictionary.md": {
+      "sha256": "f2a536f90c9373535b51476d9ef26a34999fa0d49cf288e24f7d92f4a151d657",
+      "bytes": 4682
+    },
+    "data/policy_gaps.md": {
+      "sha256": "1654dcef8d3e98d3085f73c54db98c59594e07bc65b15728a843a648b39d1a99",
+      "bytes": 1618
+    }
+  },
+  "generators": {
+    "scripts/gen_hr_db.py": "c4899499fd6659a0eb7850f4715c0f3ce12c38e18fae4ec160c52793377d85e7",
+    "scripts/build_policy_index.py": "8d7399c11ebe27ec13f99de98e2d3979436aca52185ebc35ec7135309ceee93e",
+    "scripts/gen_intent_set.py": "58aa8a0d77a5b9a4a25043a1c8cbd4200de52ced13c02fd64448733175589a0e",
+    "scripts/gen_text2sql_eval.py": "154306b8144c7a85289d0908e5e1f349c0ee2dfddf90e8cc1fa47c582fc92bc7",
+    "scripts/gen_rag_eval.py": "e81fe26074e7f25a37755f43deca4c08faf61504e3cbd4e24549c821034f6cd7",
+    "scripts/gen_risk_eval.py": "5dcaa5ce77d2db3f7b1b97b004659ca7a0f03044e2c85f4fba0af3d7499f4c78",
+    "scripts/gen_match_eval.py": "8626c410d21b455a6110b4c5b43dc2b07a9e06708e28b9c0d0beaaabfd7612f8",
+    "src/hragent/metrics.py": "713e663d673f071f2b506de921000f9419957499e4994e4555cd5c34626b8250"
+  },
+  "history": [
+    {
+      "replaced_at": "2026-09-28T14:23:51",
+      "replaced_by": "2026-09-28T14:27:35",
+      "reason": "补齐 RAG 检索金标集（原 P1 遗漏，无 gold chunk id 则检索质量不可度量）；此时尚未运行任何 P2/P3 实验，无既有结果被作废",
+      "changes": [
+        "eval/rag_eval.jsonl: 新增"
+      ],
+      "old_hashes": {
+        "eval/intent_set.jsonl": "c259bf1d71b02fd31b2f8b17dd1288c912c98f4fc96ae6342695b5c9ebf8593d",
+        "eval/text2sql_eval.jsonl": "635efc330325d493f79928af0b969b6b0c1fdcedf4ff5d1ad2bc09175df12126",
+        "eval/risk_eval.jsonl": "570d38ddab7a89fc232dfd58f52c709bb021c02c0dfb22c4e77d5f4f474770ba",
+        "eval/skill_eval.jsonl": "e8b733238c783e5cf4db1623760a887feceb235ec43be3dfdb920e7a00612eb0",
+        "eval/match_eval.jsonl": "91dc2bc050e482c1e47c5e0cba2d2879c643fd3add44ec09a274c07fe4ca2c77",
+        "data/hr.db": "e21271f630c88f3a17b82dd334617679d000195f652b24945b9f567895a11bb2",
+        "data/policy_chunks.jsonl": "1702de0f4732741c23fb9337addc8310407257fdb203fd5a36ec4cb4b25ae019",
+        "data/hr_data_dictionary.md": "f2a536f90c9373535b51476d9ef26a34999fa0d49cf288e24f7d92f4a151d657",
+        "data/policy_gaps.md": "1654dcef8d3e98d3085f73c54db98c59594e07bc65b15728a843a648b39d1a99"
+      }
+    },
+    {
+      "replaced_at": "2026-09-28T14:27:35",
+      "replaced_by": "2026-09-29T11:15:22",
+      "reason": "exp8b 新增 metrics.auc（Mann-Whitney U + 平均秩，自包含纯函数，不改动任何既有指标）。评测数据与金标未动，故既有结果仍可比；此处只刷新生成脚本指纹并留痕。",
+      "changes": [],
+      "generator_changes": [
+        "src/hragent/metrics.py: 4ce7d77037ae… → 713e663d673f…"
+      ],
+      "old_hashes": {
+        "eval/intent_set.jsonl": "c259bf1d71b02fd31b2f8b17dd1288c912c98f4fc96ae6342695b5c9ebf8593d",
+        "eval/text2sql_eval.jsonl": "635efc330325d493f79928af0b969b6b0c1fdcedf4ff5d1ad2bc09175df12126",
+        "eval/rag_eval.jsonl": "94c9f188273c907b1c29f3813625097fc854e4f8c9c6c270c73e31b02c62f42f",
+        "eval/risk_eval.jsonl": "570d38ddab7a89fc232dfd58f52c709bb021c02c0dfb22c4e77d5f4f474770ba",
+        "eval/skill_eval.jsonl": "e8b733238c783e5cf4db1623760a887feceb235ec43be3dfdb920e7a00612eb0",
+        "eval/match_eval.jsonl": "91dc2bc050e482c1e47c5e0cba2d2879c643fd3add44ec09a274c07fe4ca2c77",
+        "data/hr.db": "e21271f630c88f3a17b82dd334617679d000195f652b24945b9f567895a11bb2",
+        "data/policy_chunks.jsonl": "1702de0f4732741c23fb9337addc8310407257fdb203fd5a36ec4cb4b25ae019",
+        "data/hr_data_dictionary.md": "f2a536f90c9373535b51476d9ef26a34999fa0d49cf288e24f7d92f4a151d657",
+        "data/policy_gaps.md": "1654dcef8d3e98d3085f73c54db98c59594e07bc65b15728a843a648b39d1a99"
+      },
+      "old_generator_hashes": {
+        "scripts/gen_hr_db.py": "c4899499fd6659a0eb7850f4715c0f3ce12c38e18fae4ec160c52793377d85e7",
+        "scripts/build_policy_index.py": "8d7399c11ebe27ec13f99de98e2d3979436aca52185ebc35ec7135309ceee93e",
+        "scripts/gen_intent_set.py": "58aa8a0d77a5b9a4a25043a1c8cbd4200de52ced13c02fd64448733175589a0e",
+        "scripts/gen_text2sql_eval.py": "154306b8144c7a85289d0908e5e1f349c0ee2dfddf90e8cc1fa47c582fc92bc7",
+        "scripts/gen_rag_eval.py": "e81fe26074e7f25a37755f43deca4c08faf61504e3cbd4e24549c821034f6cd7",
+        "scripts/gen_risk_eval.py": "5dcaa5ce77d2db3f7b1b97b004659ca7a0f03044e2c85f4fba0af3d7499f4c78",
+        "scripts/gen_match_eval.py": "8626c410d21b455a6110b4c5b43dc2b07a9e06708e28b9c0d0beaaabfd7612f8",
+        "src/hragent/metrics.py": "4ce7d77037ae9ed26a0e864f2da2cfd9c00deba808d66b750ad968ade268b265"
+      }
+    }
+  ]
+}

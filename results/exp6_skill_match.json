@@ -1,0 +1,5147 @@
+{
+  "tau_selected_on_dev": 0.75,
+  "dev_ndcg_by_tau": {
+    "0.5": 0.9733275390203169,
+    "0.55": 0.974723375255221,
+    "0.6": 0.9917399114524275,
+    "0.65": 0.9938345033946789,
+    "0.7": 0.9943747435377263,
+    "0.75": 0.9945575850295267,
+    "0.8": 0.9893346999473289,
+    "0.85": 0.9899571277879528,
+    "0.9": 0.989796838950346,
+    "0.95": 0.9875743873605012
+  },
+  "test": [
+    {
+      "id": "MATCH0002",
+      "job_id": "J01",
+      "kind": "完全匹配",
+      "relevance": 2,
+      "sensitive": {
+        "gender": "女",
+        "age": 31,
+        "marital": "已婚已育"
+      },
+      "must": [
+        "Go",
+        "Microservices",
+        "高并发系统设计",
+        "MySQL",
+        "Redis",
+        "Kafka",
+        "docker",
+        "Kubernetes"
+      ],
+      "nice": [
+        "Spring Boot",
+        "分布式一致性",
+        "Elasticsearch",
+        "prometheus",
+        "CI/CD",
+        "Linux"
+      ],
+      "m0_embed": 0.8037567138671875,
+      "m0n_deident": 0.8105800151824951,
+      "m0x_deident_name": 0.8268768191337585,
+      "m1_struct": 1.0,
+      "n_must": 8,
+      "n_nice": 6,
+      "must_hit": 6,
+      "skills": [
+        "Gin",
+        "CI/CD",
+        "高并发设计",
+        "Kubernetes",
+        "TypeScript",
+        "Elasticsearch",
+        "MySQL",
+        "Linux",
+        "Kafka",
+        "容器化",
+        "Redis",
+        "Go",
+        "微服务架构"
+      ],
+      "m2_llm": 1.125
+    },
+    {
+      "id": "MATCH0004",
+      "job_id": "J01",
+      "kind": "完全匹配",
+      "relevance": 2,
+      "sensitive": {
+        "gender": "女",
+        "age": 40,
+        "marital": "已婚已育"
+      },
+      "must": [
+        "Go",
+        "Microservices",
+        "高并发系统设计",
+        "MySQL",
+        "Redis",
+        "Kafka",
+        "docker",
+        "Kubernetes"
+      ],
+      "nice": [
+        "Spring Boot",
+        "分布式一致性",
+        "Elasticsearch",
+        "prometheus",
+        "CI/CD",
+        "Linux"
+      ],
+      "m0_embed": 0.7920271158218384,
+      "m0n_deident": 0.7986028790473938,
+      "m0x_deident_name": 0.7984776496887207,
+      "m1_struct": 1.0416666666666667,
+      "n_must": 8,
+      "n_nice": 6,
+      "must_hit": 7,
+      "skills": [
+        "Kubernetes",
+        "Python",
+        "CI/CD",
+        "Redis",
+        "Golang",
+        "分布式事务",
+        "MySQL",
+        "Kafka",
+        "TypeScript",
+        "高并发系统设计",
+        "Docker",
+        "Prometheus",
+        "微服务架构"
+      ],
+      "m2_llm": 1.1666666666666667
+    },
+    {
+      "id": "MATCH0006",
+      "job_id": "J01",
+      "kind": "超配",
+      "relevance": 2,
+      "sensitive": {
+        "gender": "男",
+        "age": 28,
+        "marital": "未婚"
+      },
+      "must": [
+        "Go",
+        "Microservices",
+        "高并发系统设计",
+        "MySQL",
+        "Redis",
+        "Kafka",
+        "docker",
+        "Kubernetes"
+      ],
+      "nice": [
+        "Spring Boot",
+        "分布式一致性",
+        "Elasticsearch",
+        "prometheus",
+        "CI/CD",
+        "Linux"
+      ],
+      "m0_embed": 0.7836728096008301,
+      "m0n_deident": 0.7871652841567993,
+      "m0x_deident_name": 0.7912799119949341,
+      "m1_struct": 1.2916666666666667,
+      "n_must": 8,
+      "n_nice": 6,
+      "must_hit": 7,
+      "skills": [
+        "Kafka",
+        "Nginx",
+        "微服务架构",
+        "MySQL",
+        "Kubernetes",
+        "Docker",
+        "Prometheus",
+        "Spring Cloud",
+        "高并发系统设计",
+        "Go",
+        "Elasticsearch",
+        "分布式事务",
+        "CI/CD",
+        "Linux",
+        "Spring Boot",
+        "MyBatis",
+        "Redis"
+      ],
+      "m2_llm": 1.4166666666666667
+    },
+    {
+      "id": "MATCH0009",
+      "job_id": "J01",
+      "kind": "边缘可转岗",
+      "relevance": 1,
+      "sensitive": {
+        "gender": "女",
+        "age": 30,
+        "marital": "已婚未育"
+      },
+      "must": [
+        "Go",
+        "Microservices",
+        "高并发系统设计",
+        "MySQL",
+        "Redis",
+        "Kafka",
+        "docker",
+        "Kubernetes"
+      ],
+      "nice": [
+        "Spring Boot",
+        "分布式一致性",
+        "Elasticsearch",
+        "prometheus",
+        "CI/CD",
+        "Linux"
+      ],
+      "m0_embed": 0.7898952960968018,
+      "m0n_deident": 0.7987669706344604,
+      "m0x_deident_name": 0.8022019863128662,
+      "m1_struct": 0.625,
+      "n_must": 8,
+      "n_nice": 6,
+      "must_hit": 3,
+      "skills": [
+        "Linux",
+        "Kafka",
+        "CI/CD",
+        "Spring Boot",
+        "高并发",
+        "Kubernetes",
+        "微服务架构",
+        "Python"
+      ],
+      "m2_llm": 0.875
+    },
+    {
+      "id": "MATCH0012",
+      "job_id": "J01",
+      "kind": "缺must",
+      "relevance": 0,
+      "sensitive": {
+        "gender": "女",
+        "age": 27,
+        "marital": "未婚"
+      },
+      "must": [
+        "Go",
+        "Microservices",
+        "高并发系统设计",
+        "MySQL",
+        "Redis",
+        "Kafka",
+        "docker",
+        "Kubernetes"
+      ],
+      "nice": [
+        "Spring Boot",
+        "分布式一致性",
+        "Elasticsearch",
+        "prometheus",
+        "CI/CD",
+        "Linux"
+      ],
+      "m0_embed": 0.8007756471633911,
+      "m0n_deident": 0.7991717457771301,
+      "m0x_deident_name": 0.8063642978668213,
+      "m1_struct": 0.7083333333333333,
+      "n_must": 8,
+      "n_nice": 6,
+      "must_hit": 3,
+      "skills": [
+        "Prometheus",
+        "分布式事务",
+        "Linux",
+        "Go",
+        "Elasticsearch",
+        "Docker",
+        "Kubernetes",
+        "Spring Boot",
+        "Java",
+        "MyBatis"
+      ],
+      "m2_llm": 0.7916666666666667
+    },
+    {
+      "id": "MATCH0015",
+      "job_id": "J01",
+      "kind": "硬负例",
+      "relevance": 0,
+      "sensitive": {
+        "gender": "女",
+        "age": 25,
+        "marital": "已婚已育"
+      },
+      "must": [
+        "Go",
+        "Microservices",
+        "高并发系统设计",
+        "MySQL",
+        "Redis",
+        "Kafka",
+        "docker",
+        "Kubernetes"
+      ],
+      "nice": [
+        "Spring Boot",
+        "分布式一致性",
+        "Elasticsearch",
+        "prometheus",
+        "CI/CD",
+        "Linux"
+      ],
+      "m0_embed": 0.7677713632583618,
+      "m0n_deident": 0.7740559577941895,
+      "m0x_deident_name": 0.7740887403488159,
+      "m1_struct": 0.0,
+      "n_must": 8,
+      "n_nice": 6,
+      "must_hit": 0,
+      "skills": [
+        "Webpack",
+        "JavaScript",
+        "TypeScript",
+        "Vite",
+        "数据仓库",
+        "ReactJS",
+        "Flask",
+        "HTML/CSS",
+        "Vue 3"
+      ],
+      "m2_llm": 0.0
+    },
+    {
+      "id": "MATCH0018",
+      "job_id": "J01",
+      "kind": "只有nice",
+      "relevance": 0,
+      "sensitive": {
+        "gender": "女",
+        "age": 29,
+        "marital": "已婚未育"
+      },
+      "must": [
+        "Go",
+        "Microservices",
+        "高并发系统设计",
+        "MySQL",
+        "Redis",
+        "Kafka",
+        "docker",
+        "Kubernetes"
+      ],
+      "nice": [
+        "Spring Boot",
+        "分布式一致性",
+        "Elasticsearch",
+        "prometheus",
+        "CI/CD",
+        "Linux"
+      ],
+      "m0_embed": 0.7902746200561523,
+      "m0n_deident": 0.79229736328125,
+      "m0x_deident_name": 0.7999447584152222,
+      "m1_struct": 0.0,
+      "n_must": 8,
+      "n_nice": 6,
+      "must_hit": 0,
+      "skills": [
+        "Prometheus",
+        "Elasticsearch",
+        "CI/CD",
+        "MongoDB",
+        "Linux",
+        "Spring Boot",
+        "Spring Cloud",
+        "Python"
+      ],
+      "m2_llm": 0.0
+    },
+    {
+      "id": "MATCH0020",
+      "job_id": "J01",
+      "kind": "跨领域",
+      "relevance": 0,
+      "sensitive": {
+        "gender": "女",
+        "age": 32,
+        "marital": "已婚未育"
+      },
+      "must": [
+        "Go",
+        "Microservices",
+        "高并发系统设计",
+        "MySQL",
+        "Redis",
+        "Kafka",
+        "docker",
+        "Kubernetes"
+      ],
+      "nice": [
+        "Spring Boot",
+        "分布式一致性",
+        "Elasticsearch",
+        "prometheus",
+        "CI/CD",
+        "Linux"
+      ],
+      "m0_embed": 0.7591503858566284,
+      "m0n_deident": 0.7747149467468262,
+      "m0x_deident_name": 0.7853214144706726,
+      "m1_struct": 0.0,
+      "n_must": 8,
+      "n_nice": 6,
+      "must_hit": 0,
+      "skills": [
+        "Nginx",
+        "数据驱动决策",
+        "需求调研",
+        "PRD撰写",
+        "竞品分析",
+        "MyBatis"
+      ],
+      "m2_llm": 0.0
+    },
+    {
+      "id": "MATCH0022",
+      "job_id": "J02",
+      "kind": "完全匹配",
+      "relevance": 2,
+      "sensitive": {
+        "gender": "女",
+        "age": 39,
+        "marital": "未婚"
+      },
+      "must": [
+        "java开发",
+        "Spring Boot",
+        "MySQL",
+        "redis",
+        "微服务"
+      ],
+      "nice": [
+        "Spring Cloud",
+        "MyBatis",
+        "Kafka",
+        "Docker",
+        "分布式事务"
+      ],
+      "m0_embed": 0.7908944487571716,
+      "m0n_deident": 0.7968806028366089,
+      "m0x_deident_name": 0.8063081502914429,
+      "m1_struct": 1.4,
+      "n_must": 5,
+      "n_nice": 5,
+      "must_hit": 5,
+      "skills": [
+        "JavaScript",
+        "Spring Boot",
+        "Docker",
+        "MySQL",
+        "分布式事务",
+        "Java",
+        "MyBatis",
+        "ClickHouse",
+        "Redis",
+        "微服务架构"
+      ],
+      "m2_llm": 1.3
+    },
+    {
+      "id": "MATCH0024",
+      "job_id": "J02",
+      "kind": "完全匹配",
+      "relevance": 2,
+      "sensitive": {
+        "gender": "女",
+        "age": 40,
+        "marital": "未婚"
+      },
+      "must": [
+        "java开发",
+        "Spring Boot",
+        "MySQL",
+        "redis",
+        "微服务"
+      ],
+      "nice": [
+        "Spring Cloud",
+        "MyBatis",
+        "Kafka",
+        "Docker",
+        "分布式事务"
+      ],
+      "m0_embed": 0.7696730494499207,
+      "m0n_deident": 0.7841798663139343,
+      "m0x_deident_name": 0.7941666841506958,
+      "m1_struct": 1.3,
+      "n_must": 5,
+      "n_nice": 5,
+      "must_hit": 5,
+      "skills": [
+        "Java",
+        "微服务架构",
+        "Spring Boot",
+        "分布式事务",
+        "MyBatis",
+        "TypeScript",
+        "MySQL",
+        "Spring Cloud",
+        "gRPC",
+        "Redis"
+      ],
+      "m2_llm": 1.3
+    },
+    {
+      "id": "MATCH0025",
+      "job_id": "J02",
+      "kind": "超配",
+      "relevance": 2,
+      "sensitive": {
+        "gender": "女",
+        "age": 35,
+        "marital": "已婚已育"
+      },
+      "must": [
+        "java开发",
+        "Spring Boot",
+        "MySQL",
+        "redis",
+        "微服务"
+      ],
+      "nice": [
+        "Spring Cloud",
+        "MyBatis",
+        "Kafka",
+        "Docker",
+        "分布式事务"
+      ],
+      "m0_embed": 0.7896320819854736,
+      "m0n_deident": 0.7828129529953003,
+      "m0x_deident_name": 0.7906655073165894,
+      "m1_struct": 1.4,
+      "n_must": 5,
+      "n_nice": 5,
+      "must_hit": 5,
+      "skills": [
+        "Java",
+        "分布式一致性",
+        "MySQL",
+        "MyBatis",
+        "Redis",
+        "gRPC",
+        "Spring Boot",
+        "C++",
+        "MongoDB",
+        "Spring Cloud",
+        "Kafka",
+        "微服务架构",
+        "Docker"
+      ],
+      "m2_llm": 1.4
+    },
+    {
+      "id": "MATCH0027",
+      "job_id": "J02",
+      "kind": "超配",
+      "relevance": 2,
+      "sensitive": {
+        "gender": "男",
+        "age": 25,
+        "marital": "未婚"
+      },
+      "must": [
+        "java开发",
+        "Spring Boot",
+        "MySQL",
+        "redis",
+        "微服务"
+      ],
+      "nice": [
+        "Spring Cloud",
+        "MyBatis",
+        "Kafka",
+        "Docker",
+        "分布式事务"
+      ],
+      "m0_embed": 0.7849148511886597,
+      "m0n_deident": 0.7869150042533875,
+      "m0x_deident_name": 0.7924057245254517,
+      "m1_struct": 1.5,
+      "n_must": 5,
+      "n_nice": 5,
+      "must_hit": 5,
+      "skills": [
+        "Docker",
+        "Java",
+        "微服务架构",
+        "Spring Cloud",
+        "数据仓库",
+        "MySQL",
+        "MyBatis",
+        "Spring Boot",
+        "分布式事务",
+        "Hive",
+        "Elasticsearch",
+        "Kafka",
+        "Redis"
+      ],
+      "m2_llm": 1.5
+    },
+    {
+      "id": "MATCH0028",
+      "job_id": "J02",
+      "kind": "边缘可转岗",
+      "relevance": 1,
+      "sensitive": {
+        "gender": "男",
+        "age": 40,
+        "marital": "已婚已育"
+      },
+      "must": [
+        "java开发",
+        "Spring Boot",
+        "MySQL",
+        "redis",
+        "微服务"
+      ],
+      "nice": [
+        "Spring Cloud",
+        "MyBatis",
+        "Kafka",
+        "Docker",
+        "分布式事务"
+      ],
+      "m0_embed": 0.7696475982666016,
+      "m0n_deident": 0.7730112671852112,
+      "m0x_deident_name": 0.7889277338981628,
+      "m1_struct": 0.6000000000000001,
+      "n_must": 5,
+      "n_nice": 5,
+      "must_hit": 2,
+      "skills": [
+        "Spring Cloud",
+        "Spring Boot",
+        "MyBatis",
+        "Linux",
+        "CI/CD",
+        "Java"
+      ],
+      "m2_llm": 0.6000000000000001
+    },
+    {
+      "id": "MATCH0030",
+      "job_id": "J02",
+      "kind": "边缘可转岗",
+      "relevance": 1,
+      "sensitive": {
+        "gender": "女",
+        "age": 37,
+        "marital": "已婚已育"
+      },
+      "must": [
+        "java开发",
+        "Spring Boot",
+        "MySQL",
+        "redis",
+        "微服务"
+      ],
+      "nice": [
+        "Spring Cloud",
+        "MyBatis",
+        "Kafka",
+        "Docker",
+        "分布式事务"
+      ],
+      "m0_embed": 0.7815160751342773,
+      "m0n_deident": 0.7904411554336548,
+      "m0x_deident_name": 0.801954984664917,
+      "m1_struct": 1.0,
+      "n_must": 5,
+      "n_nice": 5,
+      "must_hit": 4,
+      "skills": [
+        "Linux",
+        "MySQL",
+        "Spring Cloud",
+        "SQL",
+        "Redis",
+        "MyBatis",
+        "Java",
+        "后端开发",
+        "数据链路标准化",
+        "稳定性治理"
+      ],
+      "m2_llm": 0.6000000000000001
+    },
+    {
+      "id": "MATCH0031",
+      "job_id": "J02",
+      "kind": "缺must",
+      "relevance": 0,
+      "sensitive": {
+        "gender": "男",
+        "age": 30,
+        "marital": "已婚已育"
+      },
+      "must": [
+        "java开发",
+        "Spring Boot",
+        "MySQL",
+        "redis",
+        "微服务"
+      ],
+      "nice": [
+        "Spring Cloud",
+        "MyBatis",
+        "Kafka",
+        "Docker",
+        "分布式事务"
+      ],
+      "m0_embed": 0.7800208330154419,
+      "m0n_deident": 0.7830103635787964,
+      "m0x_deident_name": 0.7975988984107971,
+      "m1_struct": 0.9,
+      "n_must": 5,
+      "n_nice": 5,
+      "must_hit": 2,
+      "skills": [
+        "PostgreSQL",
+        "Docker",
+        "分布式事务",
+        "Spring Boot",
+        "Kafka",
+        "Shell",
+        "MyBatis",
+        "Java"
+      ],
+      "m2_llm": 0.8
+    },
+    {
+      "id": "MATCH0033",
+      "job_id": "J02",
+      "kind": "缺must",
+      "relevance": 0,
+      "sensitive": {
+        "gender": "女",
+        "age": 40,
+        "marital": "已婚未育"
+      },
+      "must": [
+        "java开发",
+        "Spring Boot",
+        "MySQL",
+        "redis",
+        "微服务"
+      ],
+      "nice": [
+        "Spring Cloud",
+        "MyBatis",
+        "Kafka",
+        "Docker",
+        "分布式事务"
+      ],
+      "m0_embed": 0.7884926795959473,
+      "m0n_deident": 0.7995032072067261,
+      "m0x_deident_name": 0.8075439929962158,
+      "m1_struct": 1.0,
+      "n_must": 5,
+      "n_nice": 5,
+      "must_hit": 3,
+      "skills": [
+        "MyBatis",
+        "微服务架构",
+        "Django",
+        "Kafka",
+        "Spring Boot",
+        "Spring Cloud",
+        "分布式事务",
+        "Go",
+        "Java"
+      ],
+      "m2_llm": 1.0
+    },
+    {
+      "id": "MATCH0034",
+      "job_id": "J02",
+      "kind": "硬负例",
+      "relevance": 0,
+      "sensitive": {
+        "gender": "女",
+        "age": 37,
+        "marital": "已婚已育"
+      },
+      "must": [
+        "java开发",
+        "Spring Boot",
+        "MySQL",
+        "redis",
+        "微服务"
+      ],
+      "nice": [
+        "Spring Cloud",
+        "MyBatis",
+        "Kafka",
+        "Docker",
+        "分布式事务"
+      ],
+      "m0_embed": 0.7613728046417236,
+      "m0n_deident": 0.7663856148719788,
+      "m0x_deident_name": 0.7695765495300293,
+      "m1_struct": 0.4,
+      "n_must": 5,
+      "n_nice": 5,
+      "must_hit": 2,
+      "skills": [
+        "推荐系统",
+        "SQL",
+        "自然语言处理",
+        "Spark",
+        "Django",
+        "机器学习",
+        "Python",
+        "深度学习",
+        "高并发设计",
+        "PyTorch",
+        "Java",
+        "风控系统",
+        "订单指标体系"
+      ],
+      "m2_llm": 0.2
+    },
+    {
+      "id": "MATCH0036",
+      "job_id": "J02",
+      "kind": "硬负例",
+      "relevance": 0,
+      "sensitive": {
+        "gender": "男",
+        "age": 29,
+        "marital": "已婚已育"
+      },
+      "must": [
+        "java开发",
+        "Spring Boot",
+        "MySQL",
+        "redis",
+        "微服务"
+      ],
+      "nice": [
+        "Spring Cloud",
+        "MyBatis",
+        "Kafka",
+        "Docker",
+        "分布式事务"
+      ],
+      "m0_embed": 0.7731170654296875,
+      "m0n_deident": 0.7914624214172363,
+      "m0x_deident_name": 0.7946940660476685,
+      "m1_struct": 0.4,
+      "n_must": 5,
+      "n_nice": 5,
+      "must_hit": 2,
+      "skills": [
+        "数据仓库",
+        "Spark",
+        "维度建模",
+        "Django",
+        "Hive",
+        "Python",
+        "Linux",
+        "SQL",
+        "ClickHouse",
+        "Java"
+      ],
+      "m2_llm": 0.2
+    },
+    {
+      "id": "MATCH0038",
+      "job_id": "J02",
+      "kind": "只有nice",
+      "relevance": 0,
+      "sensitive": {
+        "gender": "男",
+        "age": 30,
+        "marital": "已婚未育"
+      },
+      "must": [
+        "java开发",
+        "Spring Boot",
+        "MySQL",
+        "redis",
+        "微服务"
+      ],
+      "nice": [
+        "Spring Cloud",
+        "MyBatis",
+        "Kafka",
+        "Docker",
+        "分布式事务"
+      ],
+      "m0_embed": 0.7658326625823975,
+      "m0n_deident": 0.7836509943008423,
+      "m0x_deident_name": 0.7964421510696411,
+      "m1_struct": 0.5,
+      "n_must": 5,
+      "n_nice": 5,
+      "must_hit": 1,
+      "skills": [
+        "Elasticsearch",
+        "Python",
+        "MyBatis",
+        "高并发",
+        "容器化",
+        "Kafka",
+        "Spring Cloud"
+      ],
+      "m2_llm": 0.0
+    },
+    {
+      "id": "MATCH0040",
+      "job_id": "J02",
+      "kind": "跨领域",
+      "relevance": 0,
+      "sensitive": {
+        "gender": "女",
+        "age": 27,
+        "marital": "已婚未育"
+      },
+      "must": [
+        "java开发",
+        "Spring Boot",
+        "MySQL",
+        "redis",
+        "微服务"
+      ],
+      "nice": [
+        "Spring Cloud",
+        "MyBatis",
+        "Kafka",
+        "Docker",
+        "分布式事务"
+      ],
+      "m0_embed": 0.7592300176620483,
+      "m0n_deident": 0.7810271978378296,
+      "m0x_deident_name": 0.7853327393531799,
+      "m1_struct": 0.2,
+      "n_must": 5,
+      "n_nice": 5,
+      "must_hit": 1,
+      "skills": [
+        "FastAPI",
+        "Hive",
+        "用户运营",
+        "活动策划",
+        "数据分析",
+        "Java"
+      ],
+      "m2_llm": 0.2
+    },
+    {
+      "id": "MATCH0042",
+      "job_id": "J03",
+      "kind": "完全匹配",
+      "relevance": 2,
+      "sensitive": {
+        "gender": "男",
+        "age": 38,
+        "marital": "已婚未育"
+      },
+      "must": [
+        "JavaScript",
+        "ReactJS",
+        "HTML/CSS",
+        "Webpack"
+      ],
+      "nice": [
+        "TS",
+        "vue3",
+        "Vite",
+        "CICD"
+      ],
+      "m0_embed": 0.7677240371704102,
+      "m0n_deident": 0.7776609659194946,
+      "m0x_deident_name": 0.7856396436691284,
+      "m1_struct": 1.0,
+      "n_must": 4,
+      "n_nice": 4,
+      "must_hit": 3,
+      "skills": [
+        "TypeScript",
+        "CI/CD",
+        "ES6",
+        "HTML/CSS",
+        "React",
+        "Bash",
+        "Vue",
+        "Webpack",
+        "Python3"
+      ],
+      "m2_llm": 1.25
+    },
+    {
+      "id": "MATCH0044",
+      "job_id": "J03",
+      "kind": "完全匹配",
+      "relevance": 2,
+      "sensitive": {
+        "gender": "女",
+        "age": 37,
+        "marital": "已婚已育"
+      },
+      "must": [
+        "JavaScript",
+        "ReactJS",
+        "HTML/CSS",
+        "Webpack"
+      ],
+      "nice": [
+        "TS",
+        "vue3",
+        "Vite",
+        "CICD"
+      ],
+      "m0_embed": 0.7546757459640503,
+      "m0n_deident": 0.7625209093093872,
+      "m0x_deident_name": 0.774954617023468,
+      "m1_struct": 1.375,
+      "n_must": 4,
+      "n_nice": 4,
+      "must_hit": 4,
+      "skills": [
+        "React",
+        "Java",
+        "Python",
+        "CI/CD",
+        "Vite",
+        "JavaScript",
+        "HTML/CSS",
+        "Webpack",
+        "Vue.js"
+      ],
+      "m2_llm": 1.25
+    },
+    {
+      "id": "MATCH0046",
+      "job_id": "J03",
+      "kind": "超配",
+      "relevance": 2,
+      "sensitive": {
+        "gender": "女",
+        "age": 25,
+        "marital": "已婚未育"
+      },
+      "must": [
+        "JavaScript",
+        "ReactJS",
+        "HTML/CSS",
+        "Webpack"
+      ],
+      "nice": [
+        "TS",
+        "vue3",
+        "Vite",
+        "CICD"
+      ],
+      "m0_embed": 0.740545392036438,
+      "m0n_deident": 0.7543469071388245,
+      "m0x_deident_name": 0.7683586478233337,
+      "m1_struct": 1.375,
+      "n_must": 4,
+      "n_nice": 4,
+      "must_hit": 4,
+      "skills": [
+        "HTML",
+        "CSS",
+        "Java",
+        "Vue",
+        "CI/CD",
+        "TypeScript",
+        "webpack",
+        "JavaScript",
+        "Python",
+        "Vite",
+        "C++",
+        "React"
+      ],
+      "m2_llm": 1.375
+    },
+    {
+      "id": "MATCH0049",
+      "job_id": "J03",
+      "kind": "边缘可转岗",
+      "relevance": 1,
+      "sensitive": {
+        "gender": "女",
+        "age": 30,
+        "marital": "未婚"
+      },
+      "must": [
+        "JavaScript",
+        "ReactJS",
+        "HTML/CSS",
+        "Webpack"
+      ],
+      "nice": [
+        "TS",
+        "vue3",
+        "Vite",
+        "CICD"
+      ],
+      "m0_embed": 0.7351377010345459,
+      "m0n_deident": 0.7498374581336975,
+      "m0x_deident_name": 0.7644318342208862,
+      "m1_struct": 0.625,
+      "n_must": 4,
+      "n_nice": 4,
+      "must_hit": 2,
+      "skills": [
+        "HTML5",
+        "原型设计",
+        "TypeScript",
+        "CI/CD",
+        "JavaScript",
+        "Figma"
+      ],
+      "m2_llm": 0.75
+    },
+    {
+      "id": "MATCH0052",
+      "job_id": "J03",
+      "kind": "缺must",
+      "relevance": 0,
+      "sensitive": {
+        "gender": "男",
+        "age": 32,
+        "marital": "已婚已育"
+      },
+      "must": [
+        "JavaScript",
+        "ReactJS",
+        "HTML/CSS",
+        "Webpack"
+      ],
+      "nice": [
+        "TS",
+        "vue3",
+        "Vite",
+        "CICD"
+      ],
+      "m0_embed": 0.7628711462020874,
+      "m0n_deident": 0.7736580967903137,
+      "m0x_deident_name": 0.7767820358276367,
+      "m1_struct": 0.5,
+      "n_must": 4,
+      "n_nice": 4,
+      "must_hit": 1,
+      "skills": [
+        "Vue",
+        "Python",
+        "Vite",
+        "React",
+        "TypeScript",
+        "SQL"
+      ],
+      "m2_llm": 0.5
+    },
+    {
+      "id": "MATCH0055",
+      "job_id": "J03",
+      "kind": "硬负例",
+      "relevance": 0,
+      "sensitive": {
+        "gender": "男",
+        "age": 31,
+        "marital": "未婚"
+      },
+      "must": [
+        "JavaScript",
+        "ReactJS",
+        "HTML/CSS",
+        "Webpack"
+      ],
+      "nice": [
+        "TS",
+        "vue3",
+        "Vite",
+        "CICD"
+      ],
+      "m0_embed": 0.7268602848052979,
+      "m0n_deident": 0.7335225343704224,
+      "m0x_deident_name": 0.7428950071334839,
+      "m1_struct": 0.0,
+      "n_must": 4,
+      "n_nice": 4,
+      "must_hit": 0,
+      "skills": [
+        "数据仓库",
+        "Linux",
+        "Hive",
+        "Python3",
+        "数据建模",
+        "Go",
+        "SQL",
+        "C++",
+        "ClickHouse",
+        "Spark"
+      ],
+      "m2_llm": 0.0
+    },
+    {
+      "id": "MATCH0058",
+      "job_id": "J03",
+      "kind": "只有nice",
+      "relevance": 0,
+      "sensitive": {
+        "gender": "女",
+        "age": 25,
+        "marital": "已婚未育"
+      },
+      "must": [
+        "JavaScript",
+        "ReactJS",
+        "HTML/CSS",
+        "Webpack"
+      ],
+      "nice": [
+        "TS",
+        "vue3",
+        "Vite",
+        "CICD"
+      ],
+      "m0_embed": 0.7381395697593689,
+      "m0n_deident": 0.7447918653488159,
+      "m0x_deident_name": 0.7662736773490906,
+      "m1_struct": 0.0,
+      "n_must": 4,
+      "n_nice": 4,
+      "must_hit": 0,
+      "skills": [
+        "Vue",
+        "TypeScript",
+        "C++",
+        "Go",
+        "Shell",
+        "CI/CD",
+        "前端开发"
+      ],
+      "m2_llm": 0.0
+    },
+    {
+      "id": "MATCH0060",
+      "job_id": "J03",
+      "kind": "跨领域",
+      "relevance": 0,
+      "sensitive": {
+        "gender": "女",
+        "age": 42,
+        "marital": "已婚未育"
+      },
+      "must": [
+        "JavaScript",
+        "ReactJS",
+        "HTML/CSS",
+        "Webpack"
+      ],
+      "nice": [
+        "TS",
+        "vue3",
+        "Vite",
+        "CICD"
+      ],
+      "m0_embed": 0.719901442527771,
+      "m0n_deident": 0.726548433303833,
+      "m0x_deident_name": 0.7364503145217896,
+      "m1_struct": 0.0,
+      "n_must": 4,
+      "n_nice": 4,
+      "must_hit": 0,
+      "skills": [
+        "Kubernetes",
+        "高并发设计",
+        "Docker",
+        "Python",
+        "微服务架构",
+        "MySQL",
+        "Bash",
+        "Kafka",
+        "Redis"
+      ],
+      "m2_llm": 0.0
+    },
+    {
+      "id": "MATCH0062",
+      "job_id": "J04",
+      "kind": "完全匹配",
+      "relevance": 2,
+      "sensitive": {
+        "gender": "女",
+        "age": 38,
+        "marital": "已婚未育"
+      },
+      "must": [
+        "SQL",
+        "Hive",
+        "Spark",
+        "数仓",
+        "python3"
+      ],
+      "nice": [
+        "数据建模",
+        "ClickHouse",
+        "Kafka",
+        "Linux"
+      ],
+      "m0_embed": 0.7844374179840088,
+      "m0n_deident": 0.8009634017944336,
+      "m0x_deident_name": 0.8042365312576294,
+      "m1_struct": 1.25,
+      "n_must": 5,
+      "n_nice": 4,
+      "must_hit": 5,
+      "skills": [
+        "Hive",
+        "数据仓库",
+        "Spark",
+        "维度建模",
+        "ClickHouse",
+        "SQL",
+        "Kafka",
+        "深度学习",
+        "MySQL",
+        "Python"
+      ],
+      "m2_llm": 1.375
+    },
+    {
+      "id": "MATCH0064",
+      "job_id": "J04",
+      "kind": "完全匹配",
+      "relevance": 2,
+      "sensitive": {
+        "gender": "女",
+        "age": 38,
+        "marital": "已婚已育"
+      },
+      "must": [
+        "SQL",
+        "Hive",
+        "Spark",
+        "数仓",
+        "python3"
+      ],
+      "nice": [
+        "数据建模",
+        "ClickHouse",
+        "Kafka",
+        "Linux"
+      ],
+      "m0_embed": 0.7780429720878601,
+      "m0n_deident": 0.7929199934005737,
+      "m0x_deident_name": 0.8067770004272461,
+      "m1_struct": 1.375,
+      "n_must": 5,
+      "n_nice": 4,
+      "must_hit": 5,
+      "skills": [
+        "Kafka",
+        "数据建模",
+        "SQL",
+        "JavaScript",
+        "Python",
+        "LLM应用",
+        "Spark",
+        "Hive",
+        "数据仓库",
+        "Linux"
+      ],
+      "m2_llm": 0.975
+    },
+    {
+      "id": "MATCH0065",
+      "job_id": "J04",
+      "kind": "超配",
+      "relevance": 2,
+      "sensitive": {
+        "gender": "男",
+        "age": 39,
+        "marital": "已婚未育"
+      },
+      "must": [
+        "SQL",
+        "Hive",
+        "Spark",
+        "数仓",
+        "python3"
+      ],
+      "nice": [
+        "数据建模",
+        "ClickHouse",
+        "Kafka",
+        "Linux"
+      ],
+      "m0_embed": 0.7775315046310425,
+      "m0n_deident": 0.7750169038772583,
+      "m0x_deident_name": 0.7747120261192322,
+      "m1_struct": 1.5,
+      "n_must": 5,
+      "n_nice": 4,
+      "must_hit": 5,
+      "skills": [
+        "Spark",
+        "Java",
+        "Linux",
+        "ClickHouse",
+        "Hive",
+        "Kafka",
+        "数据建模",
+        "C++",
+        "数据仓库",
+        "Python",
+        "SQL",
+        "Power BI"
+      ],
+      "m2_llm": 1.5
+    },
+    {
+      "id": "MATCH0067",
+      "job_id": "J04",
+      "kind": "超配",
+      "relevance": 2,
+      "sensitive": {
+        "gender": "女",
+        "age": 39,
+        "marital": "已婚已育"
+      },
+      "must": [
+        "SQL",
+        "Hive",
+        "Spark",
+        "数仓",
+        "python3"
+      ],
+      "nice": [
+        "数据建模",
+        "ClickHouse",
+        "Kafka",
+        "Linux"
+      ],
+      "m0_embed": 0.7639634609222412,
+      "m0n_deident": 0.7760214805603027,
+      "m0x_deident_name": 0.7880648970603943,
+      "m1_struct": 1.375,
+      "n_must": 5,
+      "n_nice": 4,
+      "must_hit": 5,
+      "skills": [
+        "Linux",
+        "Hive",
+        "SQL",
+        "Go",
+        "Python",
+        "ClickHouse",
+        "深度学习",
+        "Spark",
+        "数据仓库",
+        "Java",
+        "维度建模",
+        "Kafka"
+      ],
+      "m2_llm": 1.5
+    },
+    {
+      "id": "MATCH0068",
+      "job_id": "J04",
+      "kind": "边缘可转岗",
+      "relevance": 1,
+      "sensitive": {
+        "gender": "女",
+        "age": 38,
+        "marital": "已婚已育"
+      },
+      "must": [
+        "SQL",
+        "Hive",
+        "Spark",
+        "数仓",
+        "python3"
+      ],
+      "nice": [
+        "数据建模",
+        "ClickHouse",
+        "Kafka",
+        "Linux"
+      ],
+      "m0_embed": 0.7655737996101379,
+      "m0n_deident": 0.7706271409988403,
+      "m0x_deident_name": 0.778118371963501,
+      "m1_struct": 0.525,
+      "n_must": 5,
+      "n_nice": 4,
+      "must_hit": 2,
+      "skills": [
+        "SQL",
+        "维度建模",
+        "Kafka",
+        "Spark",
+        "数据驱动决策",
+        "数据分析"
+      ],
+      "m2_llm": 0.85
+    },
+    {
+      "id": "MATCH0070",
+      "job_id": "J04",
+      "kind": "边缘可转岗",
+      "relevance": 1,
+      "sensitive": {
+        "gender": "女",
+        "age": 27,
+        "marital": "已婚已育"
+      },
+      "must": [
+        "SQL",
+        "Hive",
+        "Spark",
+        "数仓",
+        "python3"
+      ],
+      "nice": [
+        "数据建模",
+        "ClickHouse",
+        "Kafka",
+        "Linux"
+      ],
+      "m0_embed": 0.7807672023773193,
+      "m0n_deident": 0.7811089754104614,
+      "m0x_deident_name": 0.7855768203735352,
+      "m1_struct": 0.725,
+      "n_must": 5,
+      "n_nice": 4,
+      "must_hit": 3,
+      "skills": [
+        "Hive",
+        "维度建模",
+        "SQL",
+        "推荐算法",
+        "Python",
+        "ClickHouse"
+      ],
+      "m2_llm": 0.85
+    },
+    {
+      "id": "MATCH0071",
+      "job_id": "J04",
+      "kind": "缺must",
+      "relevance": 0,
+      "sensitive": {
+        "gender": "男",
+        "age": 33,
+        "marital": "已婚已育"
+      },
+      "must": [
+        "SQL",
+        "Hive",
+        "Spark",
+        "数仓",
+        "python3"
+      ],
+      "nice": [
+        "数据建模",
+        "ClickHouse",
+        "Kafka",
+        "Linux"
+      ],
+      "m0_embed": 0.7945107221603394,
+      "m0n_deident": 0.8038730621337891,
+      "m0x_deident_name": 0.8133887052536011,
+      "m1_struct": 0.575,
+      "n_must": 5,
+      "n_nice": 4,
+      "must_hit": 1,
+      "skills": [
+        "数据建模",
+        "Elasticsearch",
+        "Linux",
+        "ClickHouse",
+        "Shell",
+        "Hive"
+      ],
+      "m2_llm": 0.775
+    },
+    {
+      "id": "MATCH0073",
+      "job_id": "J04",
+      "kind": "缺must",
+      "relevance": 0,
+      "sensitive": {
+        "gender": "女",
+        "age": 42,
+        "marital": "未婚"
+      },
+      "must": [
+        "SQL",
+        "Hive",
+        "Spark",
+        "数仓",
+        "python3"
+      ],
+      "nice": [
+        "数据建模",
+        "ClickHouse",
+        "Kafka",
+        "Linux"
+      ],
+      "m0_embed": 0.754069447517395,
+      "m0n_deident": 0.7611689567565918,
+      "m0x_deident_name": 0.7857339382171631,
+      "m1_struct": 0.575,
+      "n_must": 5,
+      "n_nice": 4,
+      "must_hit": 1,
+      "skills": [
+        "数据洞察",
+        "Spark",
+        "数据建模",
+        "ClickHouse",
+        "埋点分析",
+        "Kafka"
+      ],
+      "m2_llm": 0.575
+    },
+    {
+      "id": "MATCH0074",
+      "job_id": "J04",
+      "kind": "硬负例",
+      "relevance": 0,
+      "sensitive": {
+        "gender": "女",
+        "age": 41,
+        "marital": "未婚"
+      },
+      "must": [
+        "SQL",
+        "Hive",
+        "Spark",
+        "数仓",
+        "python3"
+      ],
+      "nice": [
+        "数据建模",
+        "ClickHouse",
+        "Kafka",
+        "Linux"
+      ],
+      "m0_embed": 0.7899227142333984,
+      "m0n_deident": 0.7860887050628662,
+      "m0x_deident_name": 0.7891731262207031,
+      "m1_struct": 0.525,
+      "n_must": 5,
+      "n_nice": 4,
+      "must_hit": 2,
+      "skills": [
+        "分布式事务",
+        "高并发",
+        "CI/CD",
+        "Golang",
+        "微服务架构",
+        "深度学习",
+        "MySQL",
+        "Kafka",
+        "Docker",
+        "埋点与指标体系",
+        "Spring Boot",
+        "Kubernetes",
+        "Redis",
+        "数据开发",
+        "数据仓库",
+        "数据标准化"
+      ],
+      "m2_llm": 0.0
+    },
+    {
+      "id": "MATCH0076",
+      "job_id": "J04",
+      "kind": "硬负例",
+      "relevance": 0,
+      "sensitive": {
+        "gender": "男",
+        "age": 31,
+        "marital": "已婚未育"
+      },
+      "must": [
+        "SQL",
+        "Hive",
+        "Spark",
+        "数仓",
+        "python3"
+      ],
+      "nice": [
+        "数据建模",
+        "ClickHouse",
+        "Kafka",
+        "Linux"
+      ],
+      "m0_embed": 0.7545878887176514,
+      "m0n_deident": 0.7607574462890625,
+      "m0x_deident_name": 0.767393946647644,
+      "m1_struct": 0.0,
+      "n_must": 5,
+      "n_nice": 4,
+      "must_hit": 0,
+      "skills": [
+        "JavaScript",
+        "CI/CD",
+        "webpack",
+        "Vite",
+        "React",
+        "深度学习",
+        "HTML/CSS",
+        "Vue",
+        "自然语言处理",
+        "数据开发"
+      ],
+      "m2_llm": 0.0
+    },
+    {
+      "id": "MATCH0078",
+      "job_id": "J04",
+      "kind": "只有nice",
+      "relevance": 0,
+      "sensitive": {
+        "gender": "男",
+        "age": 24,
+        "marital": "已婚未育"
+      },
+      "must": [
+        "SQL",
+        "Hive",
+        "Spark",
+        "数仓",
+        "python3"
+      ],
+      "nice": [
+        "数据建模",
+        "ClickHouse",
+        "Kafka",
+        "Linux"
+      ],
+      "m0_embed": 0.7797504663467407,
+      "m0n_deident": 0.7933659553527832,
+      "m0x_deident_name": 0.8068346977233887,
+      "m1_struct": 0.0,
+      "n_must": 5,
+      "n_nice": 4,
+      "must_hit": 0,
+      "skills": [
+        "Java",
+        "JavaScript",
+        "维度建模",
+        "PyTorch",
+        "Kafka",
+        "Linux",
+        "数据开发",
+        "指标体系"
+      ],
+      "m2_llm": 0.0
+    },
+    {
+      "id": "MATCH0080",
+      "job_id": "J04",
+      "kind": "跨领域",
+      "relevance": 0,
+      "sensitive": {
+        "gender": "男",
+        "age": 38,
+        "marital": "未婚"
+      },
+      "must": [
+        "SQL",
+        "Hive",
+        "Spark",
+        "数仓",
+        "python3"
+      ],
+      "nice": [
+        "数据建模",
+        "ClickHouse",
+        "Kafka",
+        "Linux"
+      ],
+      "m0_embed": 0.7519271373748779,
+      "m0n_deident": 0.7690972089767456,
+      "m0x_deident_name": 0.7764551043510437,
+      "m1_struct": 0.325,
+      "n_must": 5,
+      "n_nice": 4,
+      "must_hit": 1,
+      "skills": [
+        "容器化",
+        "Go",
+        "微服务架构",
+        "机器学习",
+        "高并发系统设计",
+        "Kubernetes",
+        "Kafka",
+        "MySQL",
+        "TypeScript"
+      ],
+      "m2_llm": 0.0
+    },
+    {
+      "id": "MATCH0082",
+      "job_id": "J05",
+      "kind": "完全匹配",
+      "relevance": 2,
+      "sensitive": {
+        "gender": "女",
+        "age": 28,
+        "marital": "已婚未育"
+      },
+      "must": [
+        "机器学习",
+        "深度学习",
+        "PyTorch",
+        "推荐算法",
+        "python3"
+      ],
+      "nice": [
+        "NLP",
+        "大语言模型应用",
+        "spark",
+        "SQL"
+      ],
+      "m0_embed": 0.7854987382888794,
+      "m0n_deident": 0.7964444160461426,
+      "m0x_deident_name": 0.7997857332229614,
+      "m1_struct": 1.375,
+      "n_must": 5,
+      "n_nice": 4,
+      "must_hit": 5,
+      "skills": [
+        "Apache Spark",
+        "JavaScript",
+        "机器学习",
+        "PyTorch",
+        "大语言模型应用",
+        "Python",
+        "深度学习",
+        "SQL",
+        "推荐算法",
+        "Go"
+      ],
+      "m2_llm": 1.375
+    },
+    {
+      "id": "MATCH0084",
+      "job_id": "J05",
+      "kind": "完全匹配",
+      "relevance": 2,
+      "sensitive": {
+        "gender": "女",
+        "age": 27,
+        "marital": "已婚已育"
+      },
+      "must": [
+        "机器学习",
+        "深度学习",
+        "PyTorch",
+        "推荐算法",
+        "python3"
+      ],
+      "nice": [
+        "NLP",
+        "大语言模型应用",
+        "spark",
+        "SQL"
+      ],
+      "m0_embed": 0.7706739902496338,
+      "m0n_deident": 0.7833696603775024,
+      "m0x_deident_name": 0.7924604415893555,
+      "m1_struct": 1.375,
+      "n_must": 5,
+      "n_nice": 4,
+      "must_hit": 5,
+      "skills": [
+        "深度学习",
+        "Spark",
+        "埋点与指标体系",
+        "SQL",
+        "数据洞察",
+        "推荐算法",
+        "Python",
+        "大语言模型应用",
+        "机器学习",
+        "PyTorch",
+        "推荐系统",
+        "系统重构",
+        "稳定性治理"
+      ],
+      "m2_llm": 1.375
+    },
+    {
+      "id": "MATCH0086",
+      "job_id": "J05",
+      "kind": "超配",
+      "relevance": 2,
+      "sensitive": {
+        "gender": "男",
+        "age": 28,
+        "marital": "未婚"
+      },
+      "must": [
+        "机器学习",
+        "深度学习",
+        "PyTorch",
+        "推荐算法",
+        "python3"
+      ],
+      "nice": [
+        "NLP",
+        "大语言模型应用",
+        "spark",
+        "SQL"
+      ],
+      "m0_embed": 0.7513321042060852,
+      "m0n_deident": 0.7803928256034851,
+      "m0x_deident_name": 0.7856853008270264,
+      "m1_struct": 1.3,
+      "n_must": 5,
+      "n_nice": 4,
+      "must_hit": 4,
+      "skills": [
+        "机器学习",
+        "Power BI",
+        "数据洞察",
+        "大语言模型应用",
+        "推荐系统",
+        "NLP",
+        "深度学习",
+        "Spark",
+        "PyTorch",
+        "Python",
+        "SQL",
+        "Tableau"
+      ],
+      "m2_llm": 1.5
+    },
+    {
+      "id": "MATCH0089",
+      "job_id": "J05",
+      "kind": "边缘可转岗",
+      "relevance": 1,
+      "sensitive": {
+        "gender": "女",
+        "age": 39,
+        "marital": "已婚未育"
+      },
+      "must": [
+        "机器学习",
+        "深度学习",
+        "PyTorch",
+        "推荐算法",
+        "python3"
+      ],
+      "nice": [
+        "NLP",
+        "大语言模型应用",
+        "spark",
+        "SQL"
+      ],
+      "m0_embed": 0.7831987142562866,
+      "m0n_deident": 0.7979199290275574,
+      "m0x_deident_name": 0.8043105602264404,
+      "m1_struct": 0.325,
+      "n_must": 5,
+      "n_nice": 4,
+      "must_hit": 1,
+      "skills": [
+        "PyTorch",
+        "SQL",
+        "数据仓库",
+        "Hive",
+        "推荐系统",
+        "RAG"
+      ],
+      "m2_llm": 0.525
+    },
+    {
+      "id": "MATCH0092",
+      "job_id": "J05",
+      "kind": "缺must",
+      "relevance": 0,
+      "sensitive": {
+        "gender": "男",
+        "age": 41,
+        "marital": "已婚未育"
+      },
+      "must": [
+        "机器学习",
+        "深度学习",
+        "PyTorch",
+        "推荐算法",
+        "python3"
+      ],
+      "nice": [
+        "NLP",
+        "大语言模型应用",
+        "spark",
+        "SQL"
+      ],
+      "m0_embed": 0.7726060152053833,
+      "m0n_deident": 0.7799620628356934,
+      "m0x_deident_name": 0.7867733240127563,
+      "m1_struct": 0.575,
+      "n_must": 5,
+      "n_nice": 4,
+      "must_hit": 1,
+      "skills": [
+        "SQL",
+        "NLP",
+        "数据洞察",
+        "大语言模型应用",
+        "Shell",
+        "推荐系统",
+        "机器学习"
+      ],
+      "m2_llm": 0.575
+    },
+    {
+      "id": "MATCH0095",
+      "job_id": "J05",
+      "kind": "硬负例",
+      "relevance": 0,
+      "sensitive": {
+        "gender": "女",
+        "age": 27,
+        "marital": "已婚已育"
+      },
+      "must": [
+        "机器学习",
+        "深度学习",
+        "PyTorch",
+        "推荐算法",
+        "python3"
+      ],
+      "nice": [
+        "NLP",
+        "大语言模型应用",
+        "spark",
+        "SQL"
+      ],
+      "m0_embed": 0.7697042226791382,
+      "m0n_deident": 0.7852253913879395,
+      "m0x_deident_name": 0.7887274026870728,
+      "m1_struct": 0.0,
+      "n_must": 5,
+      "n_nice": 4,
+      "must_hit": 0,
+      "skills": [
+        "ES6",
+        "Vite",
+        "Go",
+        "React",
+        "webpack",
+        "TypeScript",
+        "Power BI",
+        "HTML5",
+        "Vue 3"
+      ],
+      "m2_llm": 0.2
+    },
+    {
+      "id": "MATCH0098",
+      "job_id": "J05",
+      "kind": "只有nice",
+      "relevance": 0,
+      "sensitive": {
+        "gender": "男",
+        "age": 32,
+        "marital": "已婚未育"
+      },
+      "must": [
+        "机器学习",
+        "深度学习",
+        "PyTorch",
+        "推荐算法",
+        "python3"
+      ],
+      "nice": [
+        "NLP",
+        "大语言模型应用",
+        "spark",
+        "SQL"
+      ],
+      "m0_embed": 0.782320499420166,
+      "m0n_deident": 0.7902594208717346,
+      "m0x_deident_name": 0.794279932975769,
+      "m1_struct": 0.0,
+      "n_must": 5,
+      "n_nice": 4,
+      "must_hit": 0,
+      "skills": [
+        "Power BI",
+        "大语言模型应用",
+        "TensorFlow",
+        "Spark",
+        "C++",
+        "自然语言处理",
+        "推荐系统",
+        "投放系统"
+      ],
+      "m2_llm": 0.775
+    },
+    {
+      "id": "MATCH0100",
+      "job_id": "J05",
+      "kind": "跨领域",
+      "relevance": 0,
+      "sensitive": {
+        "gender": "女",
+        "age": 40,
+        "marital": "已婚已育"
+      },
+      "must": [
+        "机器学习",
+        "深度学习",
+        "PyTorch",
+        "推荐算法",
+        "python3"
+      ],
+      "nice": [
+        "NLP",
+        "大语言模型应用",
+        "spark",
+        "SQL"
+      ],
+      "m0_embed": 0.7863391637802124,
+      "m0n_deident": 0.7968919277191162,
+      "m0x_deident_name": 0.8000571727752686,
+      "m1_struct": 0.2,
+      "n_must": 5,
+      "n_nice": 4,
+      "must_hit": 1,
+      "skills": [
+        "交互设计",
+        "JavaScript",
+        "Shell",
+        "Figma",
+        "原型设计",
+        "推荐算法",
+        "结算系统",
+        "算法工程"
+      ],
+      "m2_llm": 0.4
+    },
+    {
+      "id": "MATCH0102",
+      "job_id": "J06",
+      "kind": "完全匹配",
+      "relevance": 2,
+      "sensitive": {
+        "gender": "男",
+        "age": 26,
+        "marital": "未婚"
+      },
+      "must": [
+        "结构化查询",
+        "数据分析",
+        "埋点与指标体系",
+        "数据驱动决策"
+      ],
+      "nice": [
+        "Python",
+        "tableau",
+        "powerbi",
+        "数据建模"
+      ],
+      "m0_embed": 0.7799906134605408,
+      "m0n_deident": 0.790638267993927,
+      "m0x_deident_name": 0.7977094650268555,
+      "m1_struct": 1.0,
+      "n_must": 4,
+      "n_nice": 4,
+      "must_hit": 3,
+      "skills": [
+        "劳动合同法",
+        "Tableau",
+        "Python",
+        "PyTorch",
+        "数据分析",
+        "维度建模",
+        "数据驱动决策",
+        "SQL",
+        "埋点与指标体系"
+      ],
+      "m2_llm": 1.375
+    },
+    {
+      "id": "MATCH0104",
+      "job_id": "J06",
+      "kind": "完全匹配",
+      "relevance": 2,
+      "sensitive": {
+        "gender": "女",
+        "age": 32,
+        "marital": "未婚"
+      },
+      "must": [
+        "结构化查询",
+        "数据分析",
+        "埋点与指标体系",
+        "数据驱动决策"
+      ],
+      "nice": [
+        "Python",
+        "tableau",
+        "powerbi",
+        "数据建模"
+      ],
+      "m0_embed": 0.7607227563858032,
+      "m0n_deident": 0.7798199653625488,
+      "m0x_deident_name": 0.7882254123687744,
+      "m1_struct": 1.125,
+      "n_must": 4,
+      "n_nice": 4,
+      "must_hit": 3,
+      "skills": [
+        "SQL",
+        "埋点与指标体系",
+        "数据分析",
+        "跨部门协作",
+        "Python",
+        "Power BI",
+        "合规管理",
+        "Tableau",
+        "数据驱动决策",
+        "数据链路标准化",
+        "报表开发",
+        "指标体系设计"
+      ],
+      "m2_llm": 1.375
+    },
+    {
+      "id": "MATCH0105",
+      "job_id": "J06",
+      "kind": "超配",
+      "relevance": 2,
+      "sensitive": {
+        "gender": "女",
+        "age": 37,
+        "marital": "已婚已育"
+      },
+      "must": [
+        "结构化查询",
+        "数据分析",
+        "埋点与指标体系",
+        "数据驱动决策"
+      ],
+      "nice": [
+        "Python",
+        "tableau",
+        "powerbi",
+        "数据建模"
+      ],
+      "m0_embed": 0.7580362558364868,
+      "m0n_deident": 0.7683383226394653,
+      "m0x_deident_name": 0.778270423412323,
+      "m1_struct": 1.125,
+      "n_must": 4,
+      "n_nice": 4,
+      "must_hit": 3,
+      "skills": [
+        "维度建模",
+        "跨部门协作",
+        "埋点与指标体系",
+        "项目管理",
+        "Tableau",
+        "Python",
+        "结构化查询",
+        "PyTorch",
+        "数据驱动决策",
+        "Power BI",
+        "数据洞察"
+      ],
+      "m2_llm": 1.25
+    },
+    {
+      "id": "MATCH0107",
+      "job_id": "J06",
+      "kind": "超配",
+      "relevance": 2,
+      "sensitive": {
+        "gender": "女",
+        "age": 28,
+        "marital": "未婚"
+      },
+      "must": [
+        "结构化查询",
+        "数据分析",
+        "埋点与指标体系",
+        "数据驱动决策"
+      ],
+      "nice": [
+        "Python",
+        "tableau",
+        "powerbi",
+        "数据建模"
+      ],
+      "m0_embed": 0.7483115196228027,
+      "m0n_deident": 0.755564272403717,
+      "m0x_deident_name": 0.7672232389450073,
+      "m1_struct": 1.25,
+      "n_must": 4,
+      "n_nice": 4,
+      "must_hit": 3,
+      "skills": [
+        "跨团队沟通",
+        "数据建模",
+        "财务核算",
+        "数据洞察",
+        "埋点与指标体系",
+        "结构化查询",
+        "Tableau",
+        "数据驱动",
+        "Power BI",
+        "Python",
+        "预算编制"
+      ],
+      "m2_llm": 1.25
+    },
+    {
+      "id": "MATCH0108",
+      "job_id": "J06",
+      "kind": "边缘可转岗",
+      "relevance": 1,
+      "sensitive": {
+        "gender": "男",
+        "age": 28,
+        "marital": "已婚未育"
+      },
+      "must": [
+        "结构化查询",
+        "数据分析",
+        "埋点与指标体系",
+        "数据驱动决策"
+      ],
+      "nice": [
+        "Python",
+        "tableau",
+        "powerbi",
+        "数据建模"
+      ],
+      "m0_embed": 0.7466341257095337,
+      "m0n_deident": 0.767163872718811,
+      "m0x_deident_name": 0.7840238213539124,
+      "m1_struct": 0.75,
+      "n_must": 4,
+      "n_nice": 4,
+      "must_hit": 2,
+      "skills": [
+        "数据分析",
+        "预算管理",
+        "数据驱动",
+        "Tableau",
+        "数据建模",
+        "结算项目管理",
+        "绩效系统搭建"
+      ],
+      "m2_llm": 0.75
+    },
+    {
+      "id": "MATCH0110",
+      "job_id": "J06",
+      "kind": "边缘可转岗",
+      "relevance": 1,
+      "sensitive": {
+        "gender": "男",
+        "age": 33,
+        "marital": "已婚已育"
+      },
+      "must": [
+        "结构化查询",
+        "数据分析",
+        "埋点与指标体系",
+        "数据驱动决策"
+      ],
+      "nice": [
+        "Python",
+        "tableau",
+        "powerbi",
+        "数据建模"
+      ],
+      "m0_embed": 0.7473136782646179,
+      "m0n_deident": 0.7538325786590576,
+      "m0x_deident_name": 0.7786604166030884,
+      "m1_struct": 1.0,
+      "n_must": 4,
+      "n_nice": 4,
+      "must_hit": 3,
+      "skills": [
+        "Power BI",
+        "预算编制",
+        "埋点与指标体系",
+        "Tableau",
+        "数据驱动决策",
+        "数据分析"
+      ],
+      "m2_llm": 0.625
+    },
+    {
+      "id": "MATCH0111",
+      "job_id": "J06",
+      "kind": "缺must",
+      "relevance": 0,
+      "sensitive": {
+        "gender": "男",
+        "age": 32,
+        "marital": "已婚已育"
+      },
+      "must": [
+        "结构化查询",
+        "数据分析",
+        "埋点与指标体系",
+        "数据驱动决策"
+      ],
+      "nice": [
+        "Python",
+        "tableau",
+        "powerbi",
+        "数据建模"
+      ],
+      "m0_embed": 0.7540297508239746,
+      "m0n_deident": 0.7660512924194336,
+      "m0x_deident_name": 0.7748384475708008,
+      "m1_struct": 0.625,
+      "n_must": 4,
+      "n_nice": 4,
+      "must_hit": 1,
+      "skills": [
+        "Tableau",
+        "结构化查询",
+        "Power BI",
+        "Python",
+        "预算管理",
+        "PyTorch"
+      ],
+      "m2_llm": 0.625
+    },
+    {
+      "id": "MATCH0113",
+      "job_id": "J06",
+      "kind": "缺must",
+      "relevance": 0,
+      "sensitive": {
+        "gender": "男",
+        "age": 27,
+        "marital": "未婚"
+      },
+      "must": [
+        "结构化查询",
+        "数据分析",
+        "埋点与指标体系",
+        "数据驱动决策"
+      ],
+      "nice": [
+        "Python",
+        "tableau",
+        "powerbi",
+        "数据建模"
+      ],
+      "m0_embed": 0.7510166168212891,
+      "m0n_deident": 0.7609948515892029,
+      "m0x_deident_name": 0.7655214071273804,
+      "m1_struct": 0.625,
+      "n_must": 4,
+      "n_nice": 4,
+      "must_hit": 1,
+      "skills": [
+        "TensorFlow",
+        "合规风控",
+        "Python",
+        "数据驱动决策",
+        "数据建模",
+        "Power BI"
+      ],
+      "m2_llm": 0.625
+    },
+    {
+      "id": "MATCH0114",
+      "job_id": "J06",
+      "kind": "硬负例",
+      "relevance": 0,
+      "sensitive": {
+        "gender": "男",
+        "age": 28,
+        "marital": "已婚已育"
+      },
+      "must": [
+        "结构化查询",
+        "数据分析",
+        "埋点与指标体系",
+        "数据驱动决策"
+      ],
+      "nice": [
+        "Python",
+        "tableau",
+        "powerbi",
+        "数据建模"
+      ],
+      "m0_embed": 0.7561303973197937,
+      "m0n_deident": 0.7615485191345215,
+      "m0x_deident_name": 0.7742112874984741,
+      "m1_struct": 0.375,
+      "n_must": 4,
+      "n_nice": 4,
+      "must_hit": 1,
+      "skills": [
+        "合同审核",
+        "团队管理",
+        "SQL",
+        "Power BI",
+        "预算管理",
+        "跨部门协作",
+        "数据分析",
+        "财务分析"
+      ],
+      "m2_llm": 0.375
+    },
+    {
+      "id": "MATCH0116",
+      "job_id": "J06",
+      "kind": "硬负例",
+      "relevance": 0,
+      "sensitive": {
+        "gender": "女",
+        "age": 40,
+        "marital": "未婚"
+      },
+      "must": [
+        "结构化查询",
+        "数据分析",
+        "埋点与指标体系",
+        "数据驱动决策"
+      ],
+      "nice": [
+        "Python",
+        "tableau",
+        "powerbi",
+        "数据建模"
+      ],
+      "m0_embed": 0.7365355491638184,
+      "m0n_deident": 0.7478629350662231,
+      "m0x_deident_name": 0.7689568996429443,
+      "m1_struct": 0.375,
+      "n_must": 4,
+      "n_nice": 4,
+      "must_hit": 1,
+      "skills": [
+        "PyTorch",
+        "自然语言处理",
+        "Python",
+        "招聘管理",
+        "机器学习",
+        "推荐算法",
+        "大语言模型应用",
+        "深度学习",
+        "Spark",
+        "数据分析",
+        "指标体系建设",
+        "用户增长系统"
+      ],
+      "m2_llm": 0.0
+    },
+    {
+      "id": "MATCH0118",
+      "job_id": "J06",
+      "kind": "只有nice",
+      "relevance": 0,
+      "sensitive": {
+        "gender": "男",
+        "age": 24,
+        "marital": "已婚已育"
+      },
+      "must": [
+        "结构化查询",
+        "数据分析",
+        "埋点与指标体系",
+        "数据驱动决策"
+      ],
+      "nice": [
+        "Python",
+        "tableau",
+        "powerbi",
+        "数据建模"
+      ],
+      "m0_embed": 0.7774600982666016,
+      "m0n_deident": 0.7804908752441406,
+      "m0x_deident_name": 0.785753607749939,
+      "m1_struct": 0.0,
+      "n_must": 4,
+      "n_nice": 4,
+      "must_hit": 0,
+      "skills": [
+        "Power BI",
+        "数据建模",
+        "机器学习",
+        "Python",
+        "劳动法",
+        "合同审核"
+      ],
+      "m2_llm": 0.0
+    },
+    {
+      "id": "MATCH0120",
+      "job_id": "J06",
+      "kind": "跨领域",
+      "relevance": 0,
+      "sensitive": {
+        "gender": "女",
+        "age": 29,
+        "marital": "已婚已育"
+      },
+      "must": [
+        "结构化查询",
+        "数据分析",
+        "埋点与指标体系",
+        "数据驱动决策"
+      ],
+      "nice": [
+        "Python",
+        "tableau",
+        "powerbi",
+        "数据建模"
+      ],
+      "m0_embed": 0.7548350095748901,
+      "m0n_deident": 0.7709497213363647,
+      "m0x_deident_name": 0.7774689197540283,
+      "m1_struct": 0.375,
+      "n_must": 4,
+      "n_nice": 4,
+      "must_hit": 1,
+      "skills": [
+        "Apache Spark",
+        "合同审核",
+        "自然语言处理",
+        "数据仓库",
+        "Python",
+        "Hive",
+        "数据分析",
+        "报表开发",
+        "数据链路标准化",
+        "风控系统"
+      ],
+      "m2_llm": 0.625
+    },
+    {
+      "id": "MATCH0122",
+      "job_id": "J07",
+      "kind": "完全匹配",
+      "relevance": 2,
+      "sensitive": {
+        "gender": "男",
+        "age": 37,
+        "marital": "已婚未育"
+      },
+      "must": [
+        "需求分析",
+        "产品需求文档",
+        "竞品分析",
+        "数据驱动决策",
+        "项目管理"
+      ],
+      "nice": [
+        "Axure",
+        "用户研究",
+        "高保真原型",
+        "Figma"
+      ],
+      "m0_embed": 0.7189257144927979,
+      "m0n_deident": 0.7241643667221069,
+      "m0x_deident_name": 0.73719322681427,
+      "m1_struct": 0.85,
+      "n_must": 5,
+      "n_nice": 4,
+      "must_hit": 3,
+      "skills": [
+        "需求调研",
+        "用户研究",
+        "预算管理",
+        "数据驱动决策",
+        "Figma",
+        "原型设计",
+        "交互设计",
+        "PMO",
+        "PRD撰写",
+        "竞品分析",
+        "数据链路标准化",
+        "报表产出",
+        "供应链系统建设",
+        "核心链路重构",
+        "接口性能优化"
+      ],
+      "m2_llm": 1.05
+    },
+    {
+      "id": "MATCH0124",
+      "job_id": "J07",
+      "kind": "完全匹配",
+      "relevance": 2,
+      "sensitive": {
+        "gender": "女",
+        "age": 29,
+        "marital": "已婚未育"
+      },
+      "must": [
+        "需求分析",
+        "产品需求文档",
+        "竞品分析",
+        "数据驱动决策",
+        "项目管理"
+      ],
+      "nice": [
+        "Axure",
+        "用户研究",
+        "高保真原型",
+        "Figma"
+      ],
+      "m0_embed": 0.7513461112976074,
+      "m0n_deident": 0.7611401081085205,
+      "m0x_deident_name": 0.7837448716163635,
+      "m1_struct": 1.05,
+      "n_must": 5,
+      "n_nice": 4,
+      "must_hit": 4,
+      "skills": [
+        "产品需求文档",
+        "数据驱动",
+        "竞品分析",
+        "原型设计",
+        "劳动法",
+        "Figma",
+        "需求分析",
+        "Axure",
+        "PMO",
+        "合规管理",
+        "数据链路标准化",
+        "指标体系设计",
+        "用户增长"
+      ],
+      "m2_llm": 1.05
+    },
+    {
+      "id": "MATCH0126",
+      "job_id": "J07",
+      "kind": "超配",
+      "relevance": 2,
+      "sensitive": {
+        "gender": "男",
+        "age": 41,
+        "marital": "已婚已育"
+      },
+      "must": [
+        "需求分析",
+        "产品需求文档",
+        "竞品分析",
+        "数据驱动决策",
+        "项目管理"
+      ],
+      "nice": [
+        "Axure",
+        "用户研究",
+        "高保真原型",
+        "Figma"
+      ],
+      "m0_embed": 0.7611682415008545,
+      "m0n_deident": 0.7749566435813904,
+      "m0x_deident_name": 0.787343442440033,
+      "m1_struct": 1.175,
+      "n_must": 5,
+      "n_nice": 4,
+      "must_hit": 4,
+      "skills": [
+        "PRD撰写",
+        "Axure",
+        "招聘管理",
+        "竞品分析",
+        "合规风控",
+        "项目管理",
+        "数据驱动决策",
+        "需求调研",
+        "原型设计",
+        "用户访谈",
+        "团队管理",
+        "Figma",
+        "供应链管理",
+        "绩效模块迭代",
+        "稳定性治理",
+        "核心链路重构",
+        "接口性能优化"
+      ],
+      "m2_llm": 1.5
+    },
+    {
+      "id": "MATCH0129",
+      "job_id": "J07",
+      "kind": "边缘可转岗",
+      "relevance": 1,
+      "sensitive": {
+        "gender": "女",
+        "age": 39,
+        "marital": "已婚已育"
+      },
+      "must": [
+        "需求分析",
+        "产品需求文档",
+        "竞品分析",
+        "数据驱动决策",
+        "项目管理"
+      ],
+      "nice": [
+        "Axure",
+        "用户研究",
+        "高保真原型",
+        "Figma"
+      ],
+      "m0_embed": 0.7599341869354248,
+      "m0n_deident": 0.7739344239234924,
+      "m0x_deident_name": 0.794589638710022,
+      "m1_struct": 0.65,
+      "n_must": 5,
+      "n_nice": 4,
+      "must_hit": 2,
+      "skills": [
+        "内容运营",
+        "用户访谈",
+        "项目管理",
+        "Axure",
+        "需求分析",
+        "活动策划",
+        "推荐系统",
+        "指标体系设计",
+        "系统稳定性治理"
+      ],
+      "m2_llm": 0.525
+    },
+    {
+      "id": "MATCH0132",
+      "job_id": "J07",
+      "kind": "缺must",
+      "relevance": 0,
+      "sensitive": {
+        "gender": "女",
+        "age": 40,
+        "marital": "已婚已育"
+      },
+      "must": [
+        "需求分析",
+        "产品需求文档",
+        "竞品分析",
+        "数据驱动决策",
+        "项目管理"
+      ],
+      "nice": [
+        "Axure",
+        "用户研究",
+        "高保真原型",
+        "Figma"
+      ],
+      "m0_embed": 0.7643827199935913,
+      "m0n_deident": 0.7646206021308899,
+      "m0x_deident_name": 0.7713510990142822,
+      "m1_struct": 0.575,
+      "n_must": 5,
+      "n_nice": 4,
+      "must_hit": 1,
+      "skills": [
+        "Figma",
+        "用户访谈",
+        "Axure",
+        "招聘管理",
+        "产品需求文档",
+        "跨部门协作",
+        "推荐系统",
+        "招聘系统"
+      ],
+      "m2_llm": 0.45
+    },
+    {
+      "id": "MATCH0135",
+      "job_id": "J07",
+      "kind": "硬负例",
+      "relevance": 0,
+      "sensitive": {
+        "gender": "女",
+        "age": 32,
+        "marital": "已婚已育"
+      },
+      "must": [
+        "需求分析",
+        "产品需求文档",
+        "竞品分析",
+        "数据驱动决策",
+        "项目管理"
+      ],
+      "nice": [
+        "Axure",
+        "用户研究",
+        "高保真原型",
+        "Figma"
+      ],
+      "m0_embed": 0.75959312915802,
+      "m0n_deident": 0.7690597772598267,
+      "m0x_deident_name": 0.7757253646850586,
+      "m1_struct": 0.0,
+      "n_must": 5,
+      "n_nice": 4,
+      "must_hit": 0,
+      "skills": [
+        "团队管理",
+        "劳动法",
+        "招聘管理",
+        "绩效管理",
+        "合规管理",
+        "薪酬体系",
+        "跨团队沟通",
+        "交互设计"
+      ],
+      "m2_llm": 0.6
+    },
+    {
+      "id": "MATCH0138",
+      "job_id": "J07",
+      "kind": "只有nice",
+      "relevance": 0,
+      "sensitive": {
+        "gender": "男",
+        "age": 41,
+        "marital": "已婚未育"
+      },
+      "must": [
+        "需求分析",
+        "产品需求文档",
+        "竞品分析",
+        "数据驱动决策",
+        "项目管理"
+      ],
+      "nice": [
+        "Axure",
+        "用户研究",
+        "高保真原型",
+        "Figma"
+      ],
+      "m0_embed": 0.7694075107574463,
+      "m0n_deident": 0.7741005420684814,
+      "m0x_deident_name": 0.7808037996292114,
+      "m1_struct": 0.0,
+      "n_must": 5,
+      "n_nice": 4,
+      "must_hit": 0,
+      "skills": [
+        "劳动法",
+        "Axure",
+        "Figma",
+        "跨部门协作",
+        "合同审核",
+        "高保真原型",
+        "推荐指标体系",
+        "搜索数据链路标准化"
+      ],
+      "m2_llm": 0.575
+    },
+    {
+      "id": "MATCH0140",
+      "job_id": "J07",
+      "kind": "跨领域",
+      "relevance": 0,
+      "sensitive": {
+        "gender": "女",
+        "age": 28,
+        "marital": "已婚未育"
+      },
+      "must": [
+        "需求分析",
+        "产品需求文档",
+        "竞品分析",
+        "数据驱动决策",
+        "项目管理"
+      ],
+      "nice": [
+        "Axure",
+        "用户研究",
+        "高保真原型",
+        "Figma"
+      ],
+      "m0_embed": 0.7340819835662842,
+      "m0n_deident": 0.739445686340332,
+      "m0x_deident_name": 0.755265474319458,
+      "m1_struct": 0.0,
+      "n_must": 5,
+      "n_nice": 4,
+      "must_hit": 0,
+      "skills": [
+        "预算管理",
+        "数据洞察",
+        "交互设计",
+        "跨部门协作",
+        "产品经理",
+        "数据链路标准化",
+        "风控数据",
+        "订单数据",
+        "结算数据"
+      ],
+      "m2_llm": 0.4
+    },
+    {
+      "id": "MATCH0142",
+      "job_id": "J08",
+      "kind": "完全匹配",
+      "relevance": 2,
+      "sensitive": {
+        "gender": "女",
+        "age": 24,
+        "marital": "已婚已育"
+      },
+      "must": [
+        "figma",
+        "视觉设计",
+        "交互设计",
+        "高保真原型"
+      ],
+      "nice": [
+        "Sketch",
+        "用户研究",
+        "HTML/CSS"
+      ],
+      "m0_embed": 0.763267457485199,
+      "m0n_deident": 0.7583417296409607,
+      "m0x_deident_name": 0.7597019672393799,
+      "m1_struct": 1.25,
+      "n_must": 4,
+      "n_nice": 3,
+      "must_hit": 3,
+      "skills": [
+        "原型设计",
+        "用户访谈",
+        "Figma",
+        "交互设计",
+        "HTML5",
+        "视觉设计",
+        "数据驱动",
+        "需求调研",
+        "Sketch",
+        "UI设计"
+      ],
+      "m2_llm": 1.25
+    },
+    {
+      "id": "MATCH0144",
+      "job_id": "J08",
+      "kind": "完全匹配",
+      "relevance": 2,
+      "sensitive": {
+        "gender": "男",
+        "age": 34,
+        "marital": "已婚已育"
+      },
+      "must": [
+        "figma",
+        "视觉设计",
+        "交互设计",
+        "高保真原型"
+      ],
+      "nice": [
+        "Sketch",
+        "用户研究",
+        "HTML/CSS"
+      ],
+      "m0_embed": 0.7812684774398804,
+      "m0n_deident": 0.783415675163269,
+      "m0x_deident_name": 0.7894414067268372,
+      "m1_struct": 1.25,
+      "n_must": 4,
+      "n_nice": 3,
+      "must_hit": 3,
+      "skills": [
+        "视觉设计",
+        "Sketch",
+        "HTML/CSS",
+        "原型设计",
+        "交互设计",
+        "Figma",
+        "用户研究",
+        "PRD撰写",
+        "需求调研"
+      ],
+      "m2_llm": 1.5
+    },
+    {
+      "id": "MATCH0145",
+      "job_id": "J08",
+      "kind": "超配",
+      "relevance": 2,
+      "sensitive": {
+        "gender": "男",
+        "age": 37,
+        "marital": "已婚未育"
+      },
+      "must": [
+        "figma",
+        "视觉设计",
+        "交互设计",
+        "高保真原型"
+      ],
+      "nice": [
+        "Sketch",
+        "用户研究",
+        "HTML/CSS"
+      ],
+      "m0_embed": 0.7504559755325317,
+      "m0n_deident": 0.7588881850242615,
+      "m0x_deident_name": 0.7635532021522522,
+      "m1_struct": 1.25,
+      "n_must": 4,
+      "n_nice": 3,
+      "must_hit": 3,
+      "skills": [
+        "视觉设计",
+        "竞品调研",
+        "Sketch",
+        "需求分析",
+        "Axure",
+        "Figma",
+        "CSS3",
+        "用户访谈",
+        "原型设计",
+        "交互设计"
+      ],
+      "m2_llm": 1.25
+    },
+    {
+      "id": "MATCH0147",
+      "job_id": "J08",
+      "kind": "超配",
+      "relevance": 2,
+      "sensitive": {
+        "gender": "男",
+        "age": 34,
+        "marital": "未婚"
+      },
+      "must": [
+        "figma",
+        "视觉设计",
+        "交互设计",
+        "高保真原型"
+      ],
+      "nice": [
+        "Sketch",
+        "用户研究",
+        "HTML/CSS"
+      ],
+      "m0_embed": 0.7716857194900513,
+      "m0n_deident": 0.7694377899169922,
+      "m0x_deident_name": 0.7747414112091064,
+      "m1_struct": 1.25,
+      "n_must": 4,
+      "n_nice": 3,
+      "must_hit": 3,
+      "skills": [
+        "PRD撰写",
+        "UI设计",
+        "HTML/CSS",
+        "交互设计",
+        "Axure",
+        "数据驱动",
+        "Figma",
+        "Sketch",
+        "高保真原型",
+        "用户研究"
+      ],
+      "m2_llm": 1.25
+    },
+    {
+      "id": "MATCH0148",
+      "job_id": "J08",
+      "kind": "边缘可转岗",
+      "relevance": 1,
+      "sensitive": {
+        "gender": "女",
+        "age": 33,
+        "marital": "未婚"
+      },
+      "must": [
+        "figma",
+        "视觉设计",
+        "交互设计",
+        "高保真原型"
+      ],
+      "nice": [
+        "Sketch",
+        "用户研究",
+        "HTML/CSS"
+      ],
+      "m0_embed": 0.7709880471229553,
+      "m0n_deident": 0.7777310609817505,
+      "m0x_deident_name": 0.7755014896392822,
+      "m1_struct": 0.0,
+      "n_must": 4,
+      "n_nice": 3,
+      "must_hit": 0,
+      "skills": [
+        "HTML/CSS",
+        "用户访谈",
+        "原型设计",
+        "Sketch",
+        "UI设计",
+        "React.js"
+      ],
+      "m2_llm": 0.0
+    },
+    {
+      "id": "MATCH0150",
+      "job_id": "J08",
+      "kind": "边缘可转岗",
+      "relevance": 1,
+      "sensitive": {
+        "gender": "男",
+        "age": 41,
+        "marital": "已婚已育"
+      },
+      "must": [
+        "figma",
+        "视觉设计",
+        "交互设计",
+        "高保真原型"
+      ],
+      "nice": [
+        "Sketch",
+        "用户研究",
+        "HTML/CSS"
+      ],
+      "m0_embed": 0.7432507276535034,
+      "m0n_deident": 0.7544902563095093,
+      "m0x_deident_name": 0.768528163433075,
+      "m1_struct": 0.5833333333333333,
+      "n_must": 4,
+      "n_nice": 3,
+      "must_hit": 1,
+      "skills": [
+        "Figma",
+        "JavaScript",
+        "HTML/CSS",
+        "Webpack",
+        "用户研究",
+        "UI设计",
+        "需求分析"
+      ],
+      "m2_llm": 0.5833333333333333
+    },
+    {
+      "id": "MATCH0151",
+      "job_id": "J08",
+      "kind": "缺must",
+      "relevance": 0,
+      "sensitive": {
+        "gender": "男",
+        "age": 37,
+        "marital": "未婚"
+      },
+      "must": [
+        "figma",
+        "视觉设计",
+        "交互设计",
+        "高保真原型"
+      ],
+      "nice": [
+        "Sketch",
+        "用户研究",
+        "HTML/CSS"
+      ],
+      "m0_embed": 0.7615609169006348,
+      "m0n_deident": 0.7654497623443604,
+      "m0x_deident_name": 0.7813477516174316,
+      "m1_struct": 0.5833333333333333,
+      "n_must": 4,
+      "n_nice": 3,
+      "must_hit": 1,
+      "skills": [
+        "需求分析",
+        "交互设计",
+        "HTML/CSS",
+        "Sketch",
+        "原型设计",
+        "竞品分析"
+      ],
+      "m2_llm": 0.5833333333333333
+    },
+    {
+      "id": "MATCH0153",
+      "job_id": "J08",
+      "kind": "缺must",
+      "relevance": 0,
+      "sensitive": {
+        "gender": "女",
+        "age": 39,
+        "marital": "已婚已育"
+      },
+      "must": [
+        "figma",
+        "视觉设计",
+        "交互设计",
+        "高保真原型"
+      ],
+      "nice": [
+        "Sketch",
+        "用户研究",
+        "HTML/CSS"
+      ],
+      "m0_embed": 0.7554003000259399,
+      "m0n_deident": 0.7511641979217529,
+      "m0x_deident_name": 0.7591073513031006,
+      "m1_struct": 0.5833333333333333,
+      "n_must": 4,
+      "n_nice": 3,
+      "must_hit": 1,
+      "skills": [
+        "竞品分析",
+        "用户访谈",
+        "需求分析",
+        "Sketch",
+        "交互设计",
+        "原型设计",
+        "UI设计"
+      ],
+      "m2_llm": 0.41666666666666663
+    },
+    {
+      "id": "MATCH0154",
+      "job_id": "J08",
+      "kind": "硬负例",
+      "relevance": 0,
+      "sensitive": {
+        "gender": "女",
+        "age": 27,
+        "marital": "已婚已育"
+      },
+      "must": [
+        "figma",
+        "视觉设计",
+        "交互设计",
+        "高保真原型"
+      ],
+      "nice": [
+        "Sketch",
+        "用户研究",
+        "HTML/CSS"
+      ],
+      "m0_embed": 0.7566774487495422,
+      "m0n_deident": 0.7584244012832642,
+      "m0x_deident_name": 0.7730207443237305,
+      "m1_struct": 0.41666666666666663,
+      "n_must": 4,
+      "n_nice": 3,
+      "must_hit": 1,
+      "skills": [
+        "项目管理",
+        "产品需求文档",
+        "需求分析",
+        "数据驱动决策",
+        "用户研究",
+        "竞品分析",
+        "原型设计",
+        "Figma",
+        "UI 设计"
+      ],
+      "m2_llm": 0.41666666666666663
+    },
+    {
+      "id": "MATCH0156",
+      "job_id": "J08",
+      "kind": "硬负例",
+      "relevance": 0,
+      "sensitive": {
+        "gender": "男",
+        "age": 26,
+        "marital": "已婚未育"
+      },
+      "must": [
+        "figma",
+        "视觉设计",
+        "交互设计",
+        "高保真原型"
+      ],
+      "nice": [
+        "Sketch",
+        "用户研究",
+        "HTML/CSS"
+      ],
+      "m0_embed": 0.7680788040161133,
+      "m0n_deident": 0.7714803814888,
+      "m0x_deident_name": 0.7774758338928223,
+      "m1_struct": 0.0,
+      "n_must": 4,
+      "n_nice": 3,
+      "must_hit": 0,
+      "skills": [
+        "竞品分析",
+        "PRD撰写",
+        "原型设计",
+        "用户访谈",
+        "数据驱动决策",
+        "Axure",
+        "需求分析",
+        "项目管理"
+      ],
+      "m2_llm": 0.0
+    },
+    {
+      "id": "MATCH0158",
+      "job_id": "J08",
+      "kind": "只有nice",
+      "relevance": 0,
+      "sensitive": {
+        "gender": "男",
+        "age": 37,
+        "marital": "已婚未育"
+      },
+      "must": [
+        "figma",
+        "视觉设计",
+        "交互设计",
+        "高保真原型"
+      ],
+      "nice": [
+        "Sketch",
+        "用户研究",
+        "HTML/CSS"
+      ],
+      "m0_embed": 0.756384015083313,
+      "m0n_deident": 0.756223738193512,
+      "m0x_deident_name": 0.7641381025314331,
+      "m1_struct": 0.0,
+      "n_must": 4,
+      "n_nice": 3,
+      "must_hit": 0,
+      "skills": [
+        "Axure",
+        "Sketch",
+        "PRD撰写",
+        "需求分析",
+        "CSS3"
+      ],
+      "m2_llm": 0.0
+    },
+    {
+      "id": "MATCH0160",
+      "job_id": "J08",
+      "kind": "跨领域",
+      "relevance": 0,
+      "sensitive": {
+        "gender": "男",
+        "age": 41,
+        "marital": "已婚已育"
+      },
+      "must": [
+        "figma",
+        "视觉设计",
+        "交互设计",
+        "高保真原型"
+      ],
+      "nice": [
+        "Sketch",
+        "用户研究",
+        "HTML/CSS"
+      ],
+      "m0_embed": 0.7512818574905396,
+      "m0n_deident": 0.7558579444885254,
+      "m0x_deident_name": 0.7694336175918579,
+      "m1_struct": 0.0,
+      "n_must": 4,
+      "n_nice": 3,
+      "must_hit": 0,
+      "skills": [
+        "Spark",
+        "需求调研",
+        "Hive",
+        "SQL",
+        "Python",
+        "Axure",
+        "UI 设计"
+      ],
+      "m2_llm": 0.0
+    },
+    {
+      "id": "MATCH0162",
+      "job_id": "J09",
+      "kind": "完全匹配",
+      "relevance": 2,
+      "sensitive": {
+        "gender": "女",
+        "age": 28,
+        "marital": "已婚已育"
+      },
+      "must": [
+        "用户运营",
+        "活动策划",
+        "内容策划",
+        "数据分析"
+      ],
+      "nice": [
+        "社群运营",
+        "新媒体运营",
+        "投放优化",
+        "项目推进"
+      ],
+      "m0_embed": 0.7108420133590698,
+      "m0n_deident": 0.7233442664146423,
+      "m0x_deident_name": 0.7317569255828857,
+      "m1_struct": 0.75,
+      "n_must": 4,
+      "n_nice": 4,
+      "must_hit": 3,
+      "skills": [
+        "合同审核",
+        "活动运营",
+        "用户运营",
+        "项目管理",
+        "数据洞察",
+        "财务分析",
+        "私域运营",
+        "内容策划",
+        "公众号运营",
+        "风控系统",
+        "核心链路重构"
+      ],
+      "m2_llm": 1.25
+    },
+    {
+      "id": "MATCH0164",
+      "job_id": "J09",
+      "kind": "完全匹配",
+      "relevance": 2,
+      "sensitive": {
+        "gender": "女",
+        "age": 40,
+        "marital": "已婚已育"
+      },
+      "must": [
+        "用户运营",
+        "活动策划",
+        "内容策划",
+        "数据分析"
+      ],
+      "nice": [
+        "社群运营",
+        "新媒体运营",
+        "投放优化",
+        "项目推进"
+      ],
+      "m0_embed": 0.7374316453933716,
+      "m0n_deident": 0.7300922274589539,
+      "m0x_deident_name": 0.742849588394165,
+      "m1_struct": 0.75,
+      "n_must": 4,
+      "n_nice": 4,
+      "must_hit": 3,
+      "skills": [
+        "公众号运营",
+        "用户运营",
+        "数据洞察",
+        "团队管理",
+        "广告投放",
+        "内容运营",
+        "SEO/SEM",
+        "活动策划",
+        "私域运营"
+      ],
+      "m2_llm": 1.375
+    },
+    {
+      "id": "MATCH0166",
+      "job_id": "J09",
+      "kind": "超配",
+      "relevance": 2,
+      "sensitive": {
+        "gender": "男",
+        "age": 36,
+        "marital": "已婚未育"
+      },
+      "must": [
+        "用户运营",
+        "活动策划",
+        "内容策划",
+        "数据分析"
+      ],
+      "nice": [
+        "社群运营",
+        "新媒体运营",
+        "投放优化",
+        "项目推进"
+      ],
+      "m0_embed": 0.7505636215209961,
+      "m0n_deident": 0.7567166090011597,
+      "m0x_deident_name": 0.7597086429595947,
+      "m1_struct": 1.125,
+      "n_must": 4,
+      "n_nice": 4,
+      "must_hit": 3,
+      "skills": [
+        "内容运营",
+        "数据洞察",
+        "投放优化",
+        "PMO",
+        "招聘管理",
+        "用户增长",
+        "新媒体运营",
+        "SEO/SEM",
+        "活动策划",
+        "社群运营",
+        "合同审核"
+      ],
+      "m2_llm": 1.5
+    },
+    {
+      "id": "MATCH0169",
+      "job_id": "J09",
+      "kind": "边缘可转岗",
+      "relevance": 1,
+      "sensitive": {
+        "gender": "男",
+        "age": 37,
+        "marital": "已婚未育"
+      },
+      "must": [
+        "用户运营",
+        "活动策划",
+        "内容策划",
+        "数据分析"
+      ],
+      "nice": [
+        "社群运营",
+        "新媒体运营",
+        "投放优化",
+        "项目推进"
+      ],
+      "m0_embed": 0.7353051900863647,
+      "m0n_deident": 0.7480064034461975,
+      "m0x_deident_name": 0.7571765780448914,
+      "m1_struct": 0.875,
+      "n_must": 4,
+      "n_nice": 4,
+      "must_hit": 3,
+      "skills": [
+        "投放优化",
+        "用户运营",
+        "竞品分析",
+        "活动策划",
+        "项目管理",
+        "产品需求文档"
+      ],
+      "m2_llm": 0.75
+    },
+    {
+      "id": "MATCH0172",
+      "job_id": "J09",
+      "kind": "缺must",
+      "relevance": 0,
+      "sensitive": {
+        "gender": "女",
+        "age": 29,
+        "marital": "未婚"
+      },
+      "must": [
+        "用户运营",
+        "活动策划",
+        "内容策划",
+        "数据分析"
+      ],
+      "nice": [
+        "社群运营",
+        "新媒体运营",
+        "投放优化",
+        "项目推进"
+      ],
+      "m0_embed": 0.733564019203186,
+      "m0n_deident": 0.7379364967346191,
+      "m0x_deident_name": 0.7551275491714478,
+      "m1_struct": 0.75,
+      "n_must": 4,
+      "n_nice": 4,
+      "must_hit": 3,
+      "skills": [
+        "项目管理",
+        "品牌传播",
+        "预算编制",
+        "广告投放",
+        "公众号运营",
+        "内容运营",
+        "数据分析",
+        "用户运营",
+        "供应链数据链路标准化",
+        "报表产出时效优化",
+        "招聘数据链路标准化",
+        "风控指标体系"
+      ],
+      "m2_llm": 0.5
+    },
+    {
+      "id": "MATCH0175",
+      "job_id": "J09",
+      "kind": "硬负例",
+      "relevance": 0,
+      "sensitive": {
+        "gender": "男",
+        "age": 42,
+        "marital": "未婚"
+      },
+      "must": [
+        "用户运营",
+        "活动策划",
+        "内容策划",
+        "数据分析"
+      ],
+      "nice": [
+        "社群运营",
+        "新媒体运营",
+        "投放优化",
+        "项目推进"
+      ],
+      "m0_embed": 0.7563490867614746,
+      "m0n_deident": 0.7523730397224426,
+      "m0x_deident_name": 0.755541980266571,
+      "m1_struct": 0.25,
+      "n_must": 4,
+      "n_nice": 4,
+      "must_hit": 1,
+      "skills": [
+        "薪酬设计",
+        "招聘管理",
+        "数据分析",
+        "劳动法",
+        "跨部门协作",
+        "带团队",
+        "绩效考核"
+      ],
+      "m2_llm": 0.625
+    },
+    {
+      "id": "MATCH0178",
+      "job_id": "J09",
+      "kind": "只有nice",
+      "relevance": 0,
+      "sensitive": {
+        "gender": "男",
+        "age": 34,
+        "marital": "未婚"
+      },
+      "must": [
+        "用户运营",
+        "活动策划",
+        "内容策划",
+        "数据分析"
+      ],
+      "nice": [
+        "社群运营",
+        "新媒体运营",
+        "投放优化",
+        "项目推进"
+      ],
+      "m0_embed": 0.7165096998214722,
+      "m0n_deident": 0.7330790758132935,
+      "m0x_deident_name": 0.7442917823791504,
+      "m1_struct": 0.0,
+      "n_must": 4,
+      "n_nice": 4,
+      "must_hit": 0,
+      "skills": [
+        "品牌传播",
+        "预算管理",
+        "私域运营",
+        "项目管理",
+        "搜索引擎优化",
+        "投放优化",
+        "供应链管理",
+        "数据链路标准化"
+      ],
+      "m2_llm": 0.5
+    },
+    {
+      "id": "MATCH0180",
+      "job_id": "J09",
+      "kind": "跨领域",
+      "relevance": 0,
+      "sensitive": {
+        "gender": "女",
+        "age": 39,
+        "marital": "未婚"
+      },
+      "must": [
+        "用户运营",
+        "活动策划",
+        "内容策划",
+        "数据分析"
+      ],
+      "nice": [
+        "社群运营",
+        "新媒体运营",
+        "投放优化",
+        "项目推进"
+      ],
+      "m0_embed": 0.7601058483123779,
+      "m0n_deident": 0.7709546089172363,
+      "m0x_deident_name": 0.7730255126953125,
+      "m1_struct": 0.25,
+      "n_must": 4,
+      "n_nice": 4,
+      "must_hit": 1,
+      "skills": [
+        "CI/CD",
+        "薪酬设计",
+        "Python",
+        "SEO/SEM",
+        "SQL",
+        "用户运营"
+      ],
+      "m2_llm": 0.625
+    },
+    {
+      "id": "MATCH0182",
+      "job_id": "J10",
+      "kind": "完全匹配",
+      "relevance": 2,
+      "sensitive": {
+        "gender": "女",
+        "age": 33,
+        "marital": "未婚"
+      },
+      "must": [
+        "招聘管理",
+        "绩效管理",
+        "跨部门协作",
+        "劳动法"
+      ],
+      "nice": [
+        "薪酬体系",
+        "团队管理",
+        "合规风控",
+        "数据分析"
+      ],
+      "m0_embed": 0.7506017684936523,
+      "m0n_deident": 0.7615209221839905,
+      "m0x_deident_name": 0.7637583017349243,
+      "m1_struct": 1.125,
+      "n_must": 4,
+      "n_nice": 4,
+      "must_hit": 3,
+      "skills": [
+        "跨团队沟通",
+        "绩效考核",
+        "数据分析",
+        "劳动法",
+        "财务分析",
+        "预算编制",
+        "带团队",
+        "薪酬设计",
+        "招聘全流程"
+      ],
+      "m2_llm": 1.375
+    },
+    {
+      "id": "MATCH0184",
+      "job_id": "J10",
+      "kind": "完全匹配",
+      "relevance": 2,
+      "sensitive": {
+        "gender": "女",
+        "age": 31,
+        "marital": "已婚已育"
+      },
+      "must": [
+        "招聘管理",
+        "绩效管理",
+        "跨部门协作",
+        "劳动法"
+      ],
+      "nice": [
+        "薪酬体系",
+        "团队管理",
+        "合规风控",
+        "数据分析"
+      ],
+      "m0_embed": 0.7228079438209534,
+      "m0n_deident": 0.7330316305160522,
+      "m0x_deident_name": 0.7373395562171936,
+      "m1_struct": 1.25,
+      "n_must": 4,
+      "n_nice": 4,
+      "must_hit": 4,
+      "skills": [
+        "财务分析",
+        "绩效考核",
+        "带团队",
+        "合规管理",
+        "跨部门协作",
+        "劳动合同法",
+        "招聘管理",
+        "预算编制",
+        "数据分析",
+        "绩效管理",
+        "结算系统",
+        "稳定性治理",
+        "项目管理",
+        "团队管理"
+      ],
+      "m2_llm": 1.375
+    },
+    {
+      "id": "MATCH0185",
+      "job_id": "J10",
+      "kind": "超配",
+      "relevance": 2,
+      "sensitive": {
+        "gender": "女",
+        "age": 35,
+        "marital": "已婚已育"
+      },
+      "must": [
+        "招聘管理",
+        "绩效管理",
+        "跨部门协作",
+        "劳动法"
+      ],
+      "nice": [
+        "薪酬体系",
+        "团队管理",
+        "合规风控",
+        "数据分析"
+      ],
+      "m0_embed": 0.708751916885376,
+      "m0n_deident": 0.7202520966529846,
+      "m0x_deident_name": 0.727483868598938,
+      "m1_struct": 1.5,
+      "n_must": 4,
+      "n_nice": 4,
+      "must_hit": 4,
+      "skills": [
+        "预算管理",
+        "团队管理",
+        "数据分析",
+        "招聘全流程",
+        "薪酬设计",
+        "合规风控",
+        "项目推进",
+        "跨部门协作",
+        "财务核算",
+        "劳动法",
+        "绩效管理"
+      ],
+      "m2_llm": 1.5
+    },
+    {
+      "id": "MATCH0187",
+      "job_id": "J10",
+      "kind": "超配",
+      "relevance": 2,
+      "sensitive": {
+        "gender": "女",
+        "age": 24,
+        "marital": "已婚未育"
+      },
+      "must": [
+        "招聘管理",
+        "绩效管理",
+        "跨部门协作",
+        "劳动法"
+      ],
+      "nice": [
+        "薪酬体系",
+        "团队管理",
+        "合规风控",
+        "数据分析"
+      ],
+      "m0_embed": 0.723556399345398,
+      "m0n_deident": 0.7251461744308472,
+      "m0x_deident_name": 0.7192363739013672,
+      "m1_struct": 1.25,
+      "n_must": 4,
+      "n_nice": 4,
+      "must_hit": 3,
+      "skills": [
+        "数据分析",
+        "预算编制",
+        "项目管理",
+        "招聘管理",
+        "劳动法",
+        "绩效管理",
+        "带团队",
+        "跨团队沟通",
+        "合规风控",
+        "财务分析",
+        "薪酬设计"
+      ],
+      "m2_llm": 1.5
+    },
+    {
+      "id": "MATCH0188",
+      "job_id": "J10",
+      "kind": "边缘可转岗",
+      "relevance": 1,
+      "sensitive": {
+        "gender": "男",
+        "age": 37,
+        "marital": "已婚已育"
+      },
+      "must": [
+        "招聘管理",
+        "绩效管理",
+        "跨部门协作",
+        "劳动法"
+      ],
+      "nice": [
+        "薪酬体系",
+        "团队管理",
+        "合规风控",
+        "数据分析"
+      ],
+      "m0_embed": 0.7516787052154541,
+      "m0n_deident": 0.7609215378761292,
+      "m0x_deident_name": 0.7638459801673889,
+      "m1_struct": 0.5,
+      "n_must": 4,
+      "n_nice": 4,
+      "must_hit": 1,
+      "skills": [
+        "合规风控",
+        "预算管理",
+        "劳动法",
+        "数据分析",
+        "跨团队沟通"
+      ],
+      "m2_llm": 0.5
+    },
+    {
+      "id": "MATCH0190",
+      "job_id": "J10",
+      "kind": "边缘可转岗",
+      "relevance": 1,
+      "sensitive": {
+        "gender": "男",
+        "age": 41,
+        "marital": "已婚未育"
+      },
+      "must": [
+        "招聘管理",
+        "绩效管理",
+        "跨部门协作",
+        "劳动法"
+      ],
+      "nice": [
+        "薪酬体系",
+        "团队管理",
+        "合规风控",
+        "数据分析"
+      ],
+      "m0_embed": 0.7493804097175598,
+      "m0n_deident": 0.7689400911331177,
+      "m0x_deident_name": 0.7821282148361206,
+      "m1_struct": 0.75,
+      "n_must": 4,
+      "n_nice": 4,
+      "must_hit": 2,
+      "skills": [
+        "合规风控",
+        "绩效考核",
+        "团队管理",
+        "财务分析",
+        "跨部门协作"
+      ],
+      "m2_llm": 0.75
+    },
+    {
+      "id": "MATCH0191",
+      "job_id": "J10",
+      "kind": "缺must",
+      "relevance": 0,
+      "sensitive": {
+        "gender": "女",
+        "age": 27,
+        "marital": "已婚未育"
+      },
+      "must": [
+        "招聘管理",
+        "绩效管理",
+        "跨部门协作",
+        "劳动法"
+      ],
+      "nice": [
+        "薪酬体系",
+        "团队管理",
+        "合规风控",
+        "数据分析"
+      ],
+      "m0_embed": 0.7761011123657227,
+      "m0n_deident": 0.7899644374847412,
+      "m0x_deident_name": 0.7976719737052917,
+      "m1_struct": 0.875,
+      "n_must": 4,
+      "n_nice": 4,
+      "must_hit": 2,
+      "skills": [
+        "团队管理",
+        "财务核算",
+        "绩效考核",
+        "跨部门协作",
+        "项目管理",
+        "薪酬设计",
+        "合规管理",
+        "风控",
+        "绩效系统搭建",
+        "数据链路标准化"
+      ],
+      "m2_llm": 1.0
+    },
+    {
+      "id": "MATCH0193",
+      "job_id": "J10",
+      "kind": "缺must",
+      "relevance": 0,
+      "sensitive": {
+        "gender": "男",
+        "age": 35,
+        "marital": "已婚已育"
+      },
+      "must": [
+        "招聘管理",
+        "绩效管理",
+        "跨部门协作",
+        "劳动法"
+      ],
+      "nice": [
+        "薪酬体系",
+        "团队管理",
+        "合规风控",
+        "数据分析"
+      ],
+      "m0_embed": 0.7723124027252197,
+      "m0n_deident": 0.782371461391449,
+      "m0x_deident_name": 0.7776560187339783,
+      "m1_struct": 0.625,
+      "n_must": 4,
+      "n_nice": 4,
+      "must_hit": 1,
+      "skills": [
+        "薪酬体系",
+        "合规风控",
+        "合同审查",
+        "招聘全流程",
+        "带团队",
+        "项目管理",
+        "推荐系统"
+      ],
+      "m2_llm": 0.625
+    },
+    {
+      "id": "MATCH0194",
+      "job_id": "J10",
+      "kind": "硬负例",
+      "relevance": 0,
+      "sensitive": {
+        "gender": "女",
+        "age": 27,
+        "marital": "未婚"
+      },
+      "must": [
+        "招聘管理",
+        "绩效管理",
+        "跨部门协作",
+        "劳动法"
+      ],
+      "nice": [
+        "薪酬体系",
+        "团队管理",
+        "合规风控",
+        "数据分析"
+      ],
+      "m0_embed": 0.7544698715209961,
+      "m0n_deident": 0.7620179653167725,
+      "m0x_deident_name": 0.7658307552337646,
+      "m1_struct": 0.0,
+      "n_must": 4,
+      "n_nice": 4,
+      "must_hit": 0,
+      "skills": [
+        "预算管理",
+        "Power BI",
+        "财务分析",
+        "合规风控",
+        "数据分析",
+        "项目管理",
+        "SQL"
+      ],
+      "m2_llm": 0.75
+    },
+    {
+      "id": "MATCH0196",
+      "job_id": "J10",
+      "kind": "硬负例",
+      "relevance": 0,
+      "sensitive": {
+        "gender": "女",
+        "age": 41,
+        "marital": "已婚已育"
+      },
+      "must": [
+        "招聘管理",
+        "绩效管理",
+        "跨部门协作",
+        "劳动法"
+      ],
+      "nice": [
+        "薪酬体系",
+        "团队管理",
+        "合规风控",
+        "数据分析"
+      ],
+      "m0_embed": 0.7162852883338928,
+      "m0n_deident": 0.7115780115127563,
+      "m0x_deident_name": 0.7277671098709106,
+      "m1_struct": 0.0,
+      "n_must": 4,
+      "n_nice": 4,
+      "must_hit": 0,
+      "skills": [
+        "财务分析",
+        "数据驱动决策",
+        "PRD撰写",
+        "需求分析",
+        "Axure",
+        "项目管理",
+        "项目推进",
+        "竞品分析",
+        "用户研究",
+        "原型设计"
+      ],
+      "m2_llm": 0.0
+    },
+    {
+      "id": "MATCH0198",
+      "job_id": "J10",
+      "kind": "只有nice",
+      "relevance": 0,
+      "sensitive": {
+        "gender": "女",
+        "age": 34,
+        "marital": "已婚未育"
+      },
+      "must": [
+        "招聘管理",
+        "绩效管理",
+        "跨部门协作",
+        "劳动法"
+      ],
+      "nice": [
+        "薪酬体系",
+        "团队管理",
+        "合规风控",
+        "数据分析"
+      ],
+      "m0_embed": 0.7305914759635925,
+      "m0n_deident": 0.7374417781829834,
+      "m0x_deident_name": 0.7523168921470642,
+      "m1_struct": 0.0,
+      "n_must": 4,
+      "n_nice": 4,
+      "must_hit": 0,
+      "skills": [
+        "预算管理",
+        "薪酬体系",
+        "合规风控",
+        "PMO",
+        "合同审查",
+        "数据分析"
+      ],
+      "m2_llm": 0.625
+    },
+    {
+      "id": "MATCH0200",
+      "job_id": "J10",
+      "kind": "跨领域",
+      "relevance": 0,
+      "sensitive": {
+        "gender": "男",
+        "age": 24,
+        "marital": "未婚"
+      },
+      "must": [
+        "招聘管理",
+        "绩效管理",
+        "跨部门协作",
+        "劳动法"
+      ],
+      "nice": [
+        "薪酬体系",
+        "团队管理",
+        "合规风控",
+        "数据分析"
+      ],
+      "m0_embed": 0.7552180290222168,
+      "m0n_deident": 0.7573001384735107,
+      "m0x_deident_name": 0.7626177072525024,
+      "m1_struct": 0.0,
+      "n_must": 4,
+      "n_nice": 4,
+      "must_hit": 0,
+      "skills": [
+        "SQL",
+        "合同审查",
+        "财务分析",
+        "数据洞察",
+        "数据驱动",
+        "项目管理",
+        "风险控制",
+        "需求管理",
+        "稳定性治理",
+        "供应链管理"
+      ],
+      "m2_llm": 0.0
+    },
+    {
+      "id": "MATCH0202",
+      "job_id": "J11",
+      "kind": "完全匹配",
+      "relevance": 2,
+      "sensitive": {
+        "gender": "女",
+        "age": 34,
+        "marital": "未婚"
+      },
+      "must": [
+        "财务核算",
+        "预算编制",
+        "数据分析"
+      ],
+      "nice": [
+        "合同审核",
+        "合规风控",
+        "powerbi",
+        "SQL"
+      ],
+      "m0_embed": 0.7779297828674316,
+      "m0n_deident": 0.7922520637512207,
+      "m0x_deident_name": 0.8103392124176025,
+      "m1_struct": 1.25,
+      "n_must": 3,
+      "n_nice": 4,
+      "must_hit": 3,
+      "skills": [
+        "SQL",
+        "预算编制",
+        "团队管理",
+        "财务核算",
+        "Power BI",
+        "合规管理",
+        "项目推进",
+        "数据分析"
+      ],
+      "m2_llm": 1.25
+    },
+    {
+      "id": "MATCH0204",
+      "job_id": "J11",
+      "kind": "完全匹配",
+      "relevance": 2,
+      "sensitive": {
+        "gender": "女",
+        "age": 40,
+        "marital": "未婚"
+      },
+      "must": [
+        "财务核算",
+        "预算编制",
+        "数据分析"
+      ],
+      "nice": [
+        "合同审核",
+        "合规风控",
+        "powerbi",
+        "SQL"
+      ],
+      "m0_embed": 0.7295275926589966,
+      "m0n_deident": 0.7445847988128662,
+      "m0x_deident_name": 0.7697913646697998,
+      "m1_struct": 0.9166666666666666,
+      "n_must": 3,
+      "n_nice": 4,
+      "must_hit": 2,
+      "skills": [
+        "财务分析",
+        "结构化查询",
+        "数据分析",
+        "PMO",
+        "合规风控",
+        "合同审查",
+        "薪酬设计",
+        "预算编制"
+      ],
+      "m2_llm": 1.375
+    },
+    {
+      "id": "MATCH0206",
+      "job_id": "J11",
+      "kind": "超配",
+      "relevance": 2,
+      "sensitive": {
+        "gender": "男",
+        "age": 26,
+        "marital": "未婚"
+      },
+      "must": [
+        "财务核算",
+        "预算编制",
+        "数据分析"
+      ],
+      "nice": [
+        "合同审核",
+        "合规风控",
+        "powerbi",
+        "SQL"
+      ],
+      "m0_embed": 0.7368688583374023,
+      "m0n_deident": 0.7505678534507751,
+      "m0x_deident_name": 0.7626190185546875,
+      "m1_struct": 1.1666666666666665,
+      "n_must": 3,
+      "n_nice": 4,
+      "must_hit": 2,
+      "skills": [
+        "团队管理",
+        "财务分析",
+        "Power BI",
+        "数据分析",
+        "绩效考核",
+        "SQL",
+        "合规风控",
+        "合同审核",
+        "跨团队沟通",
+        "预算管理",
+        "指标体系设计",
+        "供应链系统建设",
+        "用户增长系统建设"
+      ],
+      "m2_llm": 1.5
+    },
+    {
+      "id": "MATCH0209",
+      "job_id": "J11",
+      "kind": "边缘可转岗",
+      "relevance": 1,
+      "sensitive": {
+        "gender": "女",
+        "age": 35,
+        "marital": "已婚未育"
+      },
+      "must": [
+        "财务核算",
+        "预算编制",
+        "数据分析"
+      ],
+      "nice": [
+        "合同审核",
+        "合规风控",
+        "powerbi",
+        "SQL"
+      ],
+      "m0_embed": 0.7418098449707031,
+      "m0n_deident": 0.7583816051483154,
+      "m0x_deident_name": 0.7744431495666504,
+      "m1_struct": 0.5833333333333333,
+      "n_must": 3,
+      "n_nice": 4,
+      "must_hit": 1,
+      "skills": [
+        "绩效管理",
+        "预算编制",
+        "劳动法",
+        "SQL",
+        "Power BI",
+        "招聘管理"
+      ],
+      "m2_llm": 0.5833333333333333
+    },
+    {
+      "id": "MATCH0212",
+      "job_id": "J11",
+      "kind": "缺must",
+      "relevance": 0,
+      "sensitive": {
+        "gender": "女",
+        "age": 25,
+        "marital": "已婚已育"
+      },
+      "must": [
+        "财务核算",
+        "预算编制",
+        "数据分析"
+      ],
+      "nice": [
+        "合同审核",
+        "合规风控",
+        "powerbi",
+        "SQL"
+      ],
+      "m0_embed": 0.7742119431495667,
+      "m0n_deident": 0.7851390838623047,
+      "m0x_deident_name": 0.7985267043113708,
+      "m1_struct": 0.7083333333333333,
+      "n_must": 3,
+      "n_nice": 4,
+      "must_hit": 1,
+      "skills": [
+        "团队管理",
+        "预算管理",
+        "SQL",
+        "合规风控",
+        "Power BI",
+        "劳动法",
+        "项目管理",
+        "指标体系设计",
+        "跨团队协作",
+        "数据链路标准化"
+      ],
+      "m2_llm": 1.0416666666666665
+    },
+    {
+      "id": "MATCH0215",
+      "job_id": "J11",
+      "kind": "硬负例",
+      "relevance": 0,
+      "sensitive": {
+        "gender": "男",
+        "age": 29,
+        "marital": "已婚未育"
+      },
+      "must": [
+        "财务核算",
+        "预算编制",
+        "数据分析"
+      ],
+      "nice": [
+        "合同审核",
+        "合规风控",
+        "powerbi",
+        "SQL"
+      ],
+      "m0_embed": 0.7236402034759521,
+      "m0n_deident": 0.735352635383606,
+      "m0x_deident_name": 0.7530672550201416,
+      "m1_struct": 0.0,
+      "n_must": 3,
+      "n_nice": 4,
+      "must_hit": 0,
+      "skills": [
+        "劳动法",
+        "数据建模",
+        "埋点与指标体系",
+        "项目管理",
+        "Python",
+        "Tableau",
+        "数据洞察",
+        "SQL",
+        "数据驱动决策"
+      ],
+      "m2_llm": 0.4583333333333333
+    },
+    {
+      "id": "MATCH0218",
+      "job_id": "J11",
+      "kind": "只有nice",
+      "relevance": 0,
+      "sensitive": {
+        "gender": "男",
+        "age": 39,
+        "marital": "已婚未育"
+      },
+      "must": [
+        "财务核算",
+        "预算编制",
+        "数据分析"
+      ],
+      "nice": [
+        "合同审核",
+        "合规风控",
+        "powerbi",
+        "SQL"
+      ],
+      "m0_embed": 0.7800333499908447,
+      "m0n_deident": 0.7874807119369507,
+      "m0x_deident_name": 0.7997563481330872,
+      "m1_struct": 0.0,
+      "n_must": 3,
+      "n_nice": 4,
+      "must_hit": 0,
+      "skills": [
+        "合规风控",
+        "跨部门协作",
+        "劳动法",
+        "绩效管理",
+        "结构化查询",
+        "Power BI",
+        "数据链路标准化",
+        "报表开发"
+      ],
+      "m2_llm": 0.7083333333333333
+    },
+    {
+      "id": "MATCH0220",
+      "job_id": "J11",
+      "kind": "跨领域",
+      "relevance": 0,
+      "sensitive": {
+        "gender": "男",
+        "age": 28,
+        "marital": "已婚已育"
+      },
+      "must": [
+        "财务核算",
+        "预算编制",
+        "数据分析"
+      ],
+      "nice": [
+        "合同审核",
+        "合规风控",
+        "powerbi",
+        "SQL"
+      ],
+      "m0_embed": 0.7833757400512695,
+      "m0n_deident": 0.7797881960868835,
+      "m0x_deident_name": 0.7862498760223389,
+      "m1_struct": 0.0,
+      "n_must": 3,
+      "n_nice": 4,
+      "must_hit": 0,
+      "skills": [
+        "Python",
+        "CI/CD",
+        "劳动法",
+        "团队管理",
+        "Linux"
+      ],
+      "m2_llm": 1.125
+    },
+    {
+      "id": "MATCH0222",
+      "job_id": "J12",
+      "kind": "完全匹配",
+      "relevance": 2,
+      "sensitive": {
+        "gender": "女",
+        "age": 35,
+        "marital": "已婚未育"
+      },
+      "must": [
+        "Python",
+        "SQL",
+        "linux",
+        "CI/CD"
+      ],
+      "nice": [
+        "Java",
+        "容器化",
+        "Jenkins",
+        "Shell",
+        "Kubernetes"
+      ],
+      "m0_embed": 0.7570610642433167,
+      "m0n_deident": 0.7799535989761353,
+      "m0x_deident_name": 0.786544680595398,
+      "m1_struct": 1.3,
+      "n_must": 4,
+      "n_nice": 5,
+      "must_hit": 4,
+      "skills": [
+        "Java",
+        "Python",
+        "Shell",
+        "Django",
+        "CI/CD",
+        "Jenkins",
+        "Linux",
+        "C++",
+        "SQL"
+      ],
+      "m2_llm": 1.3
+    },
+    {
+      "id": "MATCH0224",
+      "job_id": "J12",
+      "kind": "完全匹配",
+      "relevance": 2,
+      "sensitive": {
+        "gender": "女",
+        "age": 41,
+        "marital": "已婚已育"
+      },
+      "must": [
+        "Python",
+        "SQL",
+        "linux",
+        "CI/CD"
+      ],
+      "nice": [
+        "Java",
+        "容器化",
+        "Jenkins",
+        "Shell",
+        "Kubernetes"
+      ],
+      "m0_embed": 0.732214629650116,
+      "m0n_deident": 0.7416256070137024,
+      "m0x_deident_name": 0.7565219402313232,
+      "m1_struct": 1.3,
+      "n_must": 4,
+      "n_nice": 5,
+      "must_hit": 4,
+      "skills": [
+        "Kubernetes",
+        "C++",
+        "RabbitMQ",
+        "Java",
+        "Jenkins",
+        "SQL",
+        "Python",
+        "Linux",
+        "CI/CD"
+      ],
+      "m2_llm": 1.3
+    },
+    {
+      "id": "MATCH0225",
+      "job_id": "J12",
+      "kind": "超配",
+      "relevance": 2,
+      "sensitive": {
+        "gender": "男",
+        "age": 41,
+        "marital": "已婚未育"
+      },
+      "must": [
+        "Python",
+        "SQL",
+        "linux",
+        "CI/CD"
+      ],
+      "nice": [
+        "Java",
+        "容器化",
+        "Jenkins",
+        "Shell",
+        "Kubernetes"
+      ],
+      "m0_embed": 0.7240673303604126,
+      "m0n_deident": 0.7336834073066711,
+      "m0x_deident_name": 0.7456830739974976,
+      "m1_struct": 1.4,
+      "n_must": 4,
+      "n_nice": 5,
+      "must_hit": 4,
+      "skills": [
+        "Shell",
+        "Linux",
+        "Kubernetes",
+        "SQL",
+        "Java",
+        "Python",
+        "分布式事务",
+        "CI/CD",
+        "Kafka",
+        "Jenkins",
+        "高并发",
+        "Docker"
+      ],
+      "m2_llm": 1.5
+    },
+    {
+      "id": "MATCH0227",
+      "job_id": "J12",
+      "kind": "超配",
+      "relevance": 2,
+      "sensitive": {
+        "gender": "男",
+        "age": 40,
+        "marital": "已婚已育"
+      },
+      "must": [
+        "Python",
+        "SQL",
+        "linux",
+        "CI/CD"
+      ],
+      "nice": [
+        "Java",
+        "容器化",
+        "Jenkins",
+        "Shell",
+        "Kubernetes"
+      ],
+      "m0_embed": 0.7169345617294312,
+      "m0n_deident": 0.7259984016418457,
+      "m0x_deident_name": 0.7476479411125183,
+      "m1_struct": 1.4,
+      "n_must": 4,
+      "n_nice": 5,
+      "must_hit": 4,
+      "skills": [
+        "Linux",
+        "Kubernetes",
+        "Jenkins",
+        "Java",
+        "RabbitMQ",
+        "Docker",
+        "MyBatis",
+        "CI/CD",
+        "Shell",
+        "Python",
+        "Spring Boot",
+        "SQL"
+      ],
+      "m2_llm": 1.5
+    },
+    {
+      "id": "MATCH0228",
+      "job_id": "J12",
+      "kind": "边缘可转岗",
+      "relevance": 1,
+      "sensitive": {
+        "gender": "女",
+        "age": 33,
+        "marital": "已婚未育"
+      },
+      "must": [
+        "Python",
+        "SQL",
+        "linux",
+        "CI/CD"
+      ],
+      "nice": [
+        "Java",
+        "容器化",
+        "Jenkins",
+        "Shell",
+        "Kubernetes"
+      ],
+      "m0_embed": 0.7511929869651794,
+      "m0n_deident": 0.776759147644043,
+      "m0x_deident_name": 0.7855356931686401,
+      "m1_struct": 0.7,
+      "n_must": 4,
+      "n_nice": 5,
+      "must_hit": 2,
+      "skills": [
+        "Python",
+        "Kubernetes",
+        "SQL",
+        "Redis",
+        "Java",
+        "MySQL"
+      ],
+      "m2_llm": 0.7
+    },
+    {
+      "id": "MATCH0230",
+      "job_id": "J12",
+      "kind": "边缘可转岗",
+      "relevance": 1,
+      "sensitive": {
+        "gender": "男",
+        "age": 29,
+        "marital": "已婚未育"
+      },
+      "must": [
+        "Python",
+        "SQL",
+        "linux",
+        "CI/CD"
+      ],
+      "nice": [
+        "Java",
+        "容器化",
+        "Jenkins",
+        "Shell",
+        "Kubernetes"
+      ],
+      "m0_embed": 0.751507043838501,
+      "m0n_deident": 0.7577491998672485,
+      "m0x_deident_name": 0.7917266488075256,
+      "m1_struct": 0.7,
+      "n_must": 4,
+      "n_nice": 5,
+      "must_hit": 2,
+      "skills": [
+        "Java",
+        "SQL",
+        "Redis",
+        "Spring Boot",
+        "Jenkins",
+        "Linux"
+      ],
+      "m2_llm": 0.7
+    },
+    {
+      "id": "MATCH0231",
+      "job_id": "J12",
+      "kind": "缺must",
+      "relevance": 0,
+      "sensitive": {
+        "gender": "女",
+        "age": 30,
+        "marital": "未婚"
+      },
+      "must": [
+        "Python",
+        "SQL",
+        "linux",
+        "CI/CD"
+      ],
+      "nice": [
+        "Java",
+        "容器化",
+        "Jenkins",
+        "Shell",
+        "Kubernetes"
+      ],
+      "m0_embed": 0.7807097434997559,
+      "m0n_deident": 0.7766867280006409,
+      "m0x_deident_name": 0.7852331399917603,
+      "m1_struct": 0.8,
+      "n_must": 4,
+      "n_nice": 5,
+      "must_hit": 2,
+      "skills": [
+        "CI/CD",
+        "Python",
+        "Docker",
+        "高并发系统设计",
+        "Java",
+        "Flask",
+        "Jenkins",
+        "Shell"
+      ],
+      "m2_llm": 0.8
+    },
+    {
+      "id": "MATCH0233",
+      "job_id": "J12",
+      "kind": "缺must",
+      "relevance": 0,
+      "sensitive": {
+        "gender": "男",
+        "age": 33,
+        "marital": "已婚未育"
+      },
+      "must": [
+        "Python",
+        "SQL",
+        "linux",
+        "CI/CD"
+      ],
+      "nice": [
+        "Java",
+        "容器化",
+        "Jenkins",
+        "Shell",
+        "Kubernetes"
+      ],
+      "m0_embed": 0.770458459854126,
+      "m0n_deident": 0.7912083864212036,
+      "m0x_deident_name": 0.800797164440155,
+      "m1_struct": 0.65,
+      "n_must": 4,
+      "n_nice": 5,
+      "must_hit": 1,
+      "skills": [
+        "Jenkins",
+        "Kubernetes",
+        "Shell",
+        "Python",
+        "TypeScript",
+        "Flask",
+        "Java"
+      ],
+      "m2_llm": 0.65
+    },
+    {
+      "id": "MATCH0234",
+      "job_id": "J12",
+      "kind": "硬负例",
+      "relevance": 0,
+      "sensitive": {
+        "gender": "男",
+        "age": 41,
+        "marital": "未婚"
+      },
+      "must": [
+        "Python",
+        "SQL",
+        "linux",
+        "CI/CD"
+      ],
+      "nice": [
+        "Java",
+        "容器化",
+        "Jenkins",
+        "Shell",
+        "Kubernetes"
+      ],
+      "m0_embed": 0.7158602476119995,
+      "m0n_deident": 0.726233959197998,
+      "m0x_deident_name": 0.7350690364837646,
+      "m1_struct": 0.5,
+      "n_must": 4,
+      "n_nice": 5,
+      "must_hit": 2,
+      "skills": [
+        "SQL",
+        "推荐系统",
+        "分布式事务",
+        "Nginx",
+        "Python",
+        "NLP",
+        "深度学习",
+        "Machine Learning",
+        "PyTorch",
+        "大语言模型应用"
+      ],
+      "m2_llm": 0.5
+    },
+    {
+      "id": "MATCH0236",
+      "job_id": "J12",
+      "kind": "硬负例",
+      "relevance": 0,
+      "sensitive": {
+        "gender": "男",
+        "age": 37,
+        "marital": "未婚"
+      },
+      "must": [
+        "Python",
+        "SQL",
+        "linux",
+        "CI/CD"
+      ],
+      "nice": [
+        "Java",
+        "容器化",
+        "Jenkins",
+        "Shell",
+        "Kubernetes"
+      ],
+      "m0_embed": 0.7391648292541504,
+      "m0n_deident": 0.7449856996536255,
+      "m0x_deident_name": 0.7506489753723145,
+      "m1_struct": 0.35,
+      "n_must": 4,
+      "n_nice": 5,
+      "must_hit": 1,
+      "skills": [
+        "Flask",
+        "MyBatis",
+        "MySQL",
+        "Spring Boot",
+        "Docker",
+        "Java",
+        "Redis",
+        "Spring Cloud",
+        "微服务架构"
+      ],
+      "m2_llm": 0.0
+    },
+    {
+      "id": "MATCH0238",
+      "job_id": "J12",
+      "kind": "只有nice",
+      "relevance": 0,
+      "sensitive": {
+        "gender": "男",
+        "age": 33,
+        "marital": "已婚已育"
+      },
+      "must": [
+        "Python",
+        "SQL",
+        "linux",
+        "CI/CD"
+      ],
+      "nice": [
+        "Java",
+        "容器化",
+        "Jenkins",
+        "Shell",
+        "Kubernetes"
+      ],
+      "m0_embed": 0.7920154333114624,
+      "m0n_deident": 0.8024498224258423,
+      "m0x_deident_name": 0.8078347444534302,
+      "m1_struct": 0.0,
+      "n_must": 4,
+      "n_nice": 5,
+      "must_hit": 0,
+      "skills": [
+        "Shell",
+        "Docker",
+        "Java",
+        "分布式事务",
+        "Gin",
+        "MyBatis",
+        "Jenkins"
+      ],
+      "m2_llm": 0.0
+    },
+    {
+      "id": "MATCH0240",
+      "job_id": "J12",
+      "kind": "跨领域",
+      "relevance": 0,
+      "sensitive": {
+        "gender": "女",
+        "age": 36,
+        "marital": "未婚"
+      },
+      "must": [
+        "Python",
+        "SQL",
+        "linux",
+        "CI/CD"
+      ],
+      "nice": [
+        "Java",
+        "容器化",
+        "Jenkins",
+        "Shell",
+        "Kubernetes"
+      ],
+      "m0_embed": 0.7463486194610596,
+      "m0n_deident": 0.755678653717041,
+      "m0x_deident_name": 0.758935809135437,
+      "m1_struct": 0.0,
+      "n_must": 4,
+      "n_nice": 5,
+      "must_hit": 0,
+      "skills": [
+        "Nginx",
+        "微服务架构",
+        "埋点与指标体系",
+        "数据洞察",
+        "结构化查询"
+      ],
+      "m2_llm": 0.25
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{"id": "RAG0001", "split": "dev", "difficulty": "单条款", "query": "我昨天忘打卡了，还能补吗？", "gold_chunk_ids": ["attendance_policy#1.2"], "note": "补卡时限与次数"}
+{"id": "RAG0002", "split": "test", "difficulty": "单条款", "query": "让同事帮我打个卡行不行？", "gold_chunk_ids": ["attendance_policy#1.3"], "note": "代打卡后果"}
+{"id": "RAG0003", "split": "dev", "difficulty": "跨条款", "query": "迟到了半小时会怎么样？", "gold_chunk_ids": ["attendance_policy#2.1", "attendance_policy#2.2"], "note": "30 分钟边界两侧"}
+{"id": "RAG0004", "split": "test", "difficulty": "单条款", "query": "我这个月迟到好几次了，有什么影响？", "gold_chunk_ids": ["attendance_policy#2.4"], "note": "累计迟到"}
+{"id": "RAG0005", "split": "dev", "difficulty": "单条款", "query": "周末在家自己加班到很晚，算加班吗？", "gold_chunk_ids": ["attendance_policy#3.1"], "note": "须事前审批"}
+{"id": "RAG0006", "split": "test", "difficulty": "单条款", "query": "一个月最多能加多少班？", "gold_chunk_ids": ["attendance_policy#3.3"], "note": "加班上限"}
+{"id": "RAG0007", "split": "dev", "difficulty": "跨条款", "query": "加班费是怎么算出来的？", "gold_chunk_ids": ["attendance_policy#3.4", "attendance_policy#3.5"], "note": "补偿方式 + 时薪公式"}
+{"id": "RAG0008", "split": "test", "difficulty": "单条款", "query": "去北京出差一天补多少钱？", "gold_chunk_ids": ["attendance_policy#4.2"], "note": "一线城市标准"}
+{"id": "RAG0009", "split": "dev", "difficulty": "单条款", "query": "出差赶上周末，算加班吗？", "gold_chunk_ids": ["attendance_policy#4.3"], "note": "休息日不计加班"}
+{"id": "RAG0010", "split": "test", "difficulty": "跨条款", "query": "什么情况会被算旷工？", "gold_chunk_ids": ["attendance_policy#5.1", "attendance_policy#5.2"], "note": "认定 + 处理"}
+{"id": "RAG0011", "split": "dev", "difficulty": "单条款", "query": "上个月考勤什么时候出来？我有异议怎么办？", "gold_chunk_ids": ["attendance_policy#6.2"], "note": "异议时限"}
+{"id": "RAG0012", "split": "test", "difficulty": "单条款", "query": "我的年度总现金收入包括哪些部分？", "gold_chunk_ids": ["compensation_policy#1.1"], "note": "Total Cash 构成"}
+{"id": "RAG0013", "split": "dev", "difficulty": "单条款", "query": "社保是按什么基数交的？", "gold_chunk_ids": ["compensation_policy#2.2"], "note": "缴费基数"}
+{"id": "RAG0014", "split": "test", "difficulty": "单条款", "query": "公积金公司交多少比例？", "gold_chunk_ids": ["compensation_policy#3.1"], "note": "12%"}
+{"id": "RAG0015", "split": "dev", "difficulty": "单条款", "query": "公积金基数什么时候调整？", "gold_chunk_ids": ["compensation_policy#3.2"], "note": "每年 7 月"}
+{"id": "RAG0016", "split": "test", "difficulty": "单条款", "query": "公司给上商业保险吗？", "gold_chunk_ids": ["compensation_policy#4.1"], "note": "补充商业保险"}
+{"id": "RAG0017", "split": "dev", "difficulty": "单条款", "query": "一年有几次调薪机会？", "gold_chunk_ids": ["compensation_policy#5.1"], "note": "调薪窗口"}
+{"id": "RAG0018", "split": "test", "difficulty": "单条款", "query": "可以打听同事的工资吗？", "gold_chunk_ids": ["compensation_policy#6.1"], "note": "薪酬保密"}
+{"id": "RAG0019", "split": "dev", "difficulty": "单条款", "query": "如果我给公司造成损失，最多能扣我多少工资？", "gold_chunk_ids": ["compensation_policy#7.2"], "note": "扣除上限 20%"}
+{"id": "RAG0020", "split": "test", "difficulty": "跨条款", "query": "我离职之后还需要继续保密吗？", "gold_chunk_ids": ["confidentiality_policy#2.3", "confidentiality_policy#1.2"], "note": "离职后无期限"}
+{"id": "RAG0021", "split": "dev", "difficulty": "跨条款", "query": "竞业限制最长能限制多久？", "gold_chunk_ids": ["confidentiality_policy#3.2", "labor_law_excerpt#1.6"], "note": "公司规定 + 法定上限"}
+{"id": "RAG0022", "split": "test", "difficulty": "单条款", "query": "竞业限制期间公司给钱吗？", "gold_chunk_ids": ["confidentiality_policy#3.4"], "note": "经济补偿"}
+{"id": "RAG0023", "split": "dev", "difficulty": "单条款", "query": "我在职期间做出来的东西，专利归谁？", "gold_chunk_ids": ["confidentiality_policy#4.1"], "note": "职务成果"}
+{"id": "RAG0024", "split": "test", "difficulty": "单条款", "query": "能把公司数据传到自己的网盘吗？", "gold_chunk_ids": ["confidentiality_policy#5.3"], "note": "禁止上传"}
+{"id": "RAG0025", "split": "dev", "difficulty": "单条款", "query": "公司数据分几个级别？", "gold_chunk_ids": ["confidentiality_policy#5.1"], "note": "四级分类"}
+{"id": "RAG0026", "split": "test", "difficulty": "单条款", "query": "薪酬明细属于什么级别的数据？", "gold_chunk_ids": ["confidentiality_policy#5.2"], "note": "机密级"}
+{"id": "RAG0027", "split": "dev", "difficulty": "单条款", "query": "发现有人泄露公司机密，去哪举报？", "gold_chunk_ids": ["confidentiality_policy#6.1"], "note": "举报渠道"}
+{"id": "RAG0028", "split": "test", "difficulty": "单条款", "query": "入职第一天要带什么材料？", "gold_chunk_ids": ["employee_handbook#2.1"], "note": "入职材料"}
+{"id": "RAG0029", "split": "dev", "difficulty": "跨条款", "query": "试用期最长能有多久？", "gold_chunk_ids": ["employee_handbook#2.2", "labor_law_excerpt#1.1"], "note": "公司规定 + 法定"}
+{"id": "RAG0030", "split": "test", "difficulty": "跨条款", "query": "试用期工资会打折吗？", "gold_chunk_ids": ["employee_handbook#2.3", "labor_law_excerpt#1.2"], "note": "不低于 80%"}
+{"id": "RAG0031", "split": "dev", "difficulty": "单条款", "query": "公司是弹性工作制吗？", "gold_chunk_ids": ["employee_handbook#3.2"], "note": "弹性工作"}
+{"id": "RAG0032", "split": "test", "difficulty": "单条款", "query": "公司出钱培训后我想辞职，要赔钱吗？", "gold_chunk_ids": ["employee_handbook#5.2"], "note": "培训服务期"}
+{"id": "RAG0033", "split": "dev", "difficulty": "跨条款", "query": "对考核结果不服，可以去哪申诉？", "gold_chunk_ids": ["employee_handbook#6.1", "performance_policy#4.4"], "note": "申诉渠道"}
+{"id": "RAG0034", "split": "test", "difficulty": "单条款", "query": "入职之后多久必须签劳动合同？", "gold_chunk_ids": ["employee_relations#1.1"], "note": "1 个月内"}
+{"id": "RAG0035", "split": "dev", "difficulty": "跨条款", "query": "签几次固定期限合同之后可以签无固定期限？", "gold_chunk_ids": ["employee_relations#1.2", "labor_law_excerpt#1.3"], "note": "两次后续订"}
+{"id": "RAG0036", "split": "test", "difficulty": "单条款", "query": "我想辞职，要提前多久说？", "gold_chunk_ids": ["employee_relations#2.2"], "note": "员工单方解除"}
+{"id": "RAG0037", "split": "dev", "difficulty": "跨条款", "query": "被辞退能拿到多少补偿？", "gold_chunk_ids": ["employee_relations#3.1", "employee_relations#3.2"], "note": "N 的计算与基数"}
+{"id": "RAG0038", "split": "test", "difficulty": "单条款", "query": "N+1 是什么意思？", "gold_chunk_ids": ["employee_relations#3.3"], "note": "代通知金"}
+{"id": "RAG0039", "split": "dev", "difficulty": "跨条款", "query": "什么情况下辞退不用给补偿？", "gold_chunk_ids": ["employee_relations#3.5", "employee_relations#5.2"], "note": "免补偿情形"}
+{"id": "RAG0040", "split": "test", "difficulty": "单条款", "query": "离职证明什么时候能拿到？", "gold_chunk_ids": ["employee_relations#4.2"], "note": "离职证明"}
+{"id": "RAG0041", "split": "dev", "difficulty": "单条款", "query": "离职当月的工资什么时候结清？", "gold_chunk_ids": ["employee_relations#4.4"], "note": "离职结算"}
+{"id": "RAG0042", "split": "test", "difficulty": "单条款", "query": "公司处分一共有几档？", "gold_chunk_ids": ["employee_relations#5.1"], "note": "处分等级"}
+{"id": "RAG0043", "split": "dev", "difficulty": "单条款", "query": "退休返聘是按劳动关系还是劳务关系？", "gold_chunk_ids": ["employee_relations#6.2"], "note": "劳务关系"}
+{"id": "RAG0044", "split": "test", "difficulty": "跨条款", "query": "法定产假是多少天？", "gold_chunk_ids": ["labor_law_excerpt#2.8", "leave_policy#5.1"], "note": "法定 98 天 + 公司规定"}
+{"id": "RAG0045", "split": "dev", "difficulty": "跨条款", "query": "国家规定的年休假是几天？", "gold_chunk_ids": ["labor_law_excerpt#2.5", "leave_policy#1.1"], "note": "法定 + 公司"}
+{"id": "RAG0046", "split": "test", "difficulty": "跨条款", "query": "没休完的年假怎么补偿？", "gold_chunk_ids": ["labor_law_excerpt#2.6", "leave_policy#1.5"], "note": "300% 补偿"}
+{"id": "RAG0047", "split": "dev", "difficulty": "跨条款", "query": "病假最长能休多久？", "gold_chunk_ids": ["labor_law_excerpt#2.7", "leave_policy#2.3"], "note": "医疗期"}
+{"id": "RAG0048", "split": "test", "difficulty": "单条款", "query": "申请劳动仲裁有时间限制吗？", "gold_chunk_ids": ["labor_law_excerpt#4.1"], "note": "一年时效"}
+{"id": "RAG0049", "split": "dev", "difficulty": "单条款", "query": "加班工资是平时的几倍？", "gold_chunk_ids": ["labor_law_excerpt#2.3"], "note": "150/200/300%"}
+{"id": "RAG0050", "split": "test", "difficulty": "单条款", "query": "法定节假日都有哪些？", "gold_chunk_ids": ["labor_law_excerpt#2.4"], "note": "法定节假日"}
+{"id": "RAG0051", "split": "dev", "difficulty": "单条款", "query": "我工作满 3 年了，有几天年假？", "gold_chunk_ids": ["leave_policy#1.1"], "note": "年假天数分档"}
+{"id": "RAG0052", "split": "test", "difficulty": "单条款", "query": "我是年中入职的，年假怎么折算？", "gold_chunk_ids": ["leave_policy#1.2"], "note": "年假折算"}
+{"id": "RAG0053", "split": "dev", "difficulty": "单条款", "query": "去年的年假没休完，能留到今年吗？", "gold_chunk_ids": ["leave_policy#1.4"], "note": "顺延与作废"}
+{"id": "RAG0054", "split": "test", "difficulty": "单条款", "query": "病假期间工资怎么发？", "gold_chunk_ids": ["leave_policy#2.2"], "note": "病假工资"}
+{"id": "RAG0055", "split": "dev", "difficulty": "单条款", "query": "请事假会扣钱吗？", "gold_chunk_ids": ["leave_policy#3.1"], "note": "无薪假"}
+{"id": "RAG0056", "split": "test", "difficulty": "单条款", "query": "一年最多能请多少天事假？", "gold_chunk_ids": ["leave_policy#3.2"], "note": "15 天上限"}
+{"id": "RAG0057", "split": "dev", "difficulty": "单条款", "query": "我下个月结婚，能休几天假？", "gold_chunk_ids": ["leave_policy#4.1"], "note": "婚假 10 天"}
+{"id": "RAG0058", "split": "test", "difficulty": "单条款", "query": "婚假有有效期吗？", "gold_chunk_ids": ["leave_policy#4.2"], "note": "12 个月内"}
+{"id": "RAG0059", "split": "dev", "difficulty": "单条款", "query": "再婚还能享受婚假吗？", "gold_chunk_ids": ["leave_policy#4.3"], "note": "再婚同享"}
+{"id": "RAG0060", "split": "test", "difficulty": "单条款", "query": "陪产假有多少天？", "gold_chunk_ids": ["leave_policy#5.2"], "note": "陪产假"}
+{"id": "RAG0061", "split": "dev", "difficulty": "单条款", "query": "育儿假是怎么规定的？", "gold_chunk_ids": ["leave_policy#5.3"], "note": "育儿假"}
+{"id": "RAG0062", "split": "test", "difficulty": "单条款", "query": "我爷爷去世了，有丧假吗？", "gold_chunk_ids": ["leave_policy#6.3"], "note": "祖父母 1 天"}
+{"id": "RAG0063", "split": "dev", "difficulty": "单条款", "query": "去外地奔丧，路上的时间算假吗？", "gold_chunk_ids": ["leave_policy#6.4"], "note": "路程假"}
+{"id": "RAG0064", "split": "test", "difficulty": "单条款", "query": "工伤养伤期间工资怎么发？", "gold_chunk_ids": ["leave_policy#7.1"], "note": "停工留薪期"}
+{"id": "RAG0065", "split": "dev", "difficulty": "单条款", "query": "临时有急事来不及走请假流程怎么办？", "gold_chunk_ids": ["leave_policy#8.3"], "note": "24 小时内补办"}
+{"id": "RAG0066", "split": "test", "difficulty": "单条款", "query": "公司多久做一次绩效考核？", "gold_chunk_ids": ["performance_policy#1.1"], "note": "半年度"}
+{"id": "RAG0067", "split": "dev", "difficulty": "单条款", "query": "绩效等级是怎么分布的？", "gold_chunk_ids": ["performance_policy#2.1"], "note": "强制分布"}
+{"id": "RAG0068", "split": "test", "difficulty": "单条款", "query": "我们部门人比较少，强制分布怎么算？", "gold_chunk_ids": ["performance_policy#2.2"], "note": "少于 10 人合并"}
+{"id": "RAG0069", "split": "dev", "difficulty": "单条款", "query": "绩效 C 有比例下限吗？", "gold_chunk_ids": ["performance_policy#2.3"], "note": "C 不低于 10%"}
+{"id": "RAG0070", "split": "test", "difficulty": "单条款", "query": "绩效考核结果会影响什么？", "gold_chunk_ids": ["performance_policy#5.1"], "note": "结果应用"}
+{"id": "RAG0071", "split": "dev", "difficulty": "单条款", "query": "连续拿 C 会怎么样？", "gold_chunk_ids": ["performance_policy#5.2"], "note": "调岗或解除"}
+{"id": "RAG0072", "split": "test", "difficulty": "跨条款", "query": "PIP 是什么？一般要多久？", "gold_chunk_ids": ["performance_policy#6.1", "performance_policy#6.2"], "note": "PIP 定义与周期"}
+{"id": "RAG0073", "split": "dev", "difficulty": "单条款", "query": "绩效考核的流程有哪几步？", "gold_chunk_ids": ["performance_policy#4.1"], "note": "考核流程"}
+{"id": "RAG0074", "split": "test", "difficulty": "单条款", "query": "招聘 JD 里可以写“限男性”吗？", "gold_chunk_ids": ["recruitment_policy#1.2"], "note": "禁止歧视性条件"}
+{"id": "RAG0075", "split": "dev", "difficulty": "单条款", "query": "超编招聘需要谁审批？", "gold_chunk_ids": ["recruitment_policy#2.2"], "note": "分管高管"}
+{"id": "RAG0076", "split": "test", "difficulty": "单条款", "query": "面试最多安排几轮？", "gold_chunk_ids": ["recruitment_policy#3.3"], "note": "不超过 3 轮"}
+{"id": "RAG0077", "split": "dev", "difficulty": "单条款", "query": "面试结束后多久要提交评价？", "gold_chunk_ids": ["recruitment_policy#4.2"], "note": "24 小时"}
+{"id": "RAG0078", "split": "test", "difficulty": "单条款", "query": "背景调查需要候选人同意吗？", "gold_chunk_ids": ["recruitment_policy#5.1"], "note": "书面授权"}
+{"id": "RAG0079", "split": "dev", "difficulty": "单条款", "query": "背景调查能查候选人的婚育情况吗？", "gold_chunk_ids": ["recruitment_policy#5.3"], "note": "禁止调查"}
+{"id": "RAG0080", "split": "test", "difficulty": "跨条款", "query": "内推奖金什么时候发？", "gold_chunk_ids": ["recruitment_policy#7.2", "recruitment_policy#7.3"], "note": "发放时点与例外"}
+{"id": "RAG0081", "split": "dev", "difficulty": "单条款", "query": "Offer 的有效期是多久？", "gold_chunk_ids": ["recruitment_policy#6.2"], "note": "7 个工作日"}
+{"id": "RAG0082", "split": "test", "difficulty": "单条款", "query": "校园招聘一般什么时候进行？", "gold_chunk_ids": ["recruitment_policy#9.1"], "note": "9–11 月"}
+{"id": "RAG0083", "split": "dev", "difficulty": "半盲区", "query": "生育津贴怎么算、怎么发？", "gold_chunk_ids": ["leave_policy#5.1"], "note": "只有产假天数，无津贴计算"}
+{"id": "RAG0084", "split": "test", "difficulty": "半盲区", "query": "竞业限制的违约金具体是多少钱？", "gold_chunk_ids": ["confidentiality_policy#3.5"], "note": "只说须支付，无金额"}
+{"id": "RAG0085", "split": "dev", "difficulty": "半盲区", "query": "年终奖的具体计算公式是什么？", "gold_chunk_ids": ["compensation_policy#1.4"], "note": "只挂钩绩效，无公式"}
+{"id": "RAG0086", "split": "test", "difficulty": "半盲区", "query": "培训服务期违约金按什么比例递减？", "gold_chunk_ids": ["employee_handbook#5.2"], "note": "只有上限，无递减比例"}
+{"id": "RAG0087", "split": "dev", "difficulty": "全盲区", "query": "公司的期权分几年归属？", "gold_chunk_ids": [], "note": "无股权激励规定"}
+{"id": "RAG0088", "split": "test", "difficulty": "全盲区", "query": "员工宿舍怎么申请？", "gold_chunk_ids": [], "note": "无宿舍规定"}
+{"id": "RAG0089", "split": "dev", "difficulty": "全盲区", "query": "外派新加坡的补贴标准是多少？", "gold_chunk_ids": [], "note": "无外派规定"}
+{"id": "RAG0090", "split": "test", "difficulty": "全盲区", "query": "EAP 心理咨询一年可以约几次？", "gold_chunk_ids": [], "note": "无 EAP 规定"}
+{"id": "RAG0091", "split": "dev", "difficulty": "全盲区", "query": "企业年金公司缴多少？", "gold_chunk_ids": [], "note": "无年金规定"}
+{"id": "RAG0092", "split": "test", "difficulty": "全盲区", "query": "子女教育补贴能报销多少？", "gold_chunk_ids": [], "note": "无教育补贴规定"}
+{"id": "RAG0093", "split": "dev", "difficulty": "全盲区", "query": "申请一项发明专利奖励多少钱？", "gold_chunk_ids": [], "note": "无专利奖励规定"}
+{"id": "RAG0094", "split": "test", "difficulty": "全盲区", "query": "员工持股平台的退出机制是什么？", "gold_chunk_ids": [], "note": "无持股平台规定"}

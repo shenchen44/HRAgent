@@ -1,0 +1,34 @@
+# 虚拟环境：906MB，绝不能进仓库
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Node（scripts/smoke_ui.mjs 的可选依赖）
+node_modules/
+package-lock.json
+
+# SQLite 运行时产物：-wal/-shm 是瞬时文件，不该提交。
+# 注意 data/ui.db 本身**要**提交（演示数据开箱即用），只忽略它的伴生文件。
+*.db-wal
+*.db-shm
+
+# 系统
+.DS_Store
+Thumbs.db
+
+# 编辑器
+.idea/
+.vscode/
+*.swp
+
+# 本地临时文件
+*.log
+/tmp/

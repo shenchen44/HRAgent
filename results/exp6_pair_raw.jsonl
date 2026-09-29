@@ -1,0 +1,120 @@
+{"id": "MATCH0002", "kind": "pair", "has": ["Go", "Microservices", "高并发系统设计", "MySQL", "Redis", "Kafka", "Kubernetes", "Elasticsearch", "CI/CD", "Linux"], "tokens": 84}
+{"id": "MATCH0004", "kind": "pair", "has": ["Go", "Microservices", "高并发系统设计", "MySQL", "Redis", "Kafka", "docker", "Kubernetes", "prometheus", "CI/CD"], "tokens": 96}
+{"id": "MATCH0006", "kind": "pair", "has": ["Go", "Microservices", "高并发系统设计", "MySQL", "Redis", "Kafka", "docker", "Kubernetes", "Spring Boot", "Elasticsearch", "prometheus", "CI/CD", "Linux"], "tokens": 102}
+{"id": "MATCH0009", "kind": "pair", "has": ["Go", "Microservices", "高并发系统设计", "Kafka", "Kubernetes", "Spring Boot", "CI/CD", "Linux"], "tokens": 61}
+{"id": "MATCH0012", "kind": "pair", "has": ["Go", "docker", "Kubernetes", "Spring Boot", "Elasticsearch", "prometheus", "Linux", "分布式一致性"], "tokens": 92}
+{"id": "MATCH0015", "kind": "pair", "has": [], "tokens": 27}
+{"id": "MATCH0018", "kind": "pair", "has": ["Elasticsearch", "prometheus", "CI/CD", "Linux", "Spring Boot"], "tokens": 66}
+{"id": "MATCH0020", "kind": "pair", "has": [], "tokens": 31}
+{"id": "MATCH0022", "kind": "pair", "has": ["java开发", "Spring Boot", "MySQL", "redis", "微服务", "MyBatis", "Docker", "分布式事务"], "tokens": 55}
+{"id": "MATCH0024", "kind": "pair", "has": ["java开发", "Spring Boot", "MySQL", "redis", "微服务", "Spring Cloud", "MyBatis", "分布式事务"], "tokens": 160}
+{"id": "MATCH0025", "kind": "pair", "has": ["java开发", "Spring Boot", "MySQL", "redis", "微服务", "Spring Cloud", "MyBatis", "Kafka", "Docker"], "tokens": 60}
+{"id": "MATCH0027", "kind": "pair", "has": ["java开发", "Spring Boot", "MySQL", "redis", "微服务", "Spring Cloud", "MyBatis", "Kafka", "Docker", "分布式事务"], "tokens": 170}
+{"id": "MATCH0028", "kind": "pair", "has": ["java开发", "Spring Boot", "Spring Cloud", "MyBatis"], "tokens": 21}
+{"id": "MATCH0030", "kind": "pair", "has": ["MySQL", "redis", "Spring Cloud", "MyBatis"], "tokens": 119}
+{"id": "MATCH0031", "kind": "pair", "has": ["java开发", "Spring Boot", "MyBatis", "Kafka", "Docker", "分布式事务"], "tokens": 67}
+{"id": "MATCH0033", "kind": "pair", "has": ["java开发", "Spring Boot", "MyBatis", "微服务", "Spring Cloud", "Kafka", "分布式事务"], "tokens": 54}
+{"id": "MATCH0034", "kind": "pair", "has": ["java开发"], "tokens": 44}
+{"id": "MATCH0036", "kind": "pair", "has": ["java开发"], "tokens": 12}
+{"id": "MATCH0038", "kind": "pair", "has": ["MyBatis", "Kafka", "Spring Cloud"], "tokens": 138}
+{"id": "MATCH0040", "kind": "pair", "has": ["java开发"], "tokens": 103}
+{"id": "MATCH0042", "kind": "pair", "has": ["JavaScript", "ReactJS", "HTML/CSS", "Webpack", "TS", "CICD"], "tokens": 142}
+{"id": "MATCH0044", "kind": "pair", "has": ["JavaScript", "ReactJS", "HTML/CSS", "Webpack", "CICD", "Vite"], "tokens": 52}
+{"id": "MATCH0046", "kind": "pair", "has": ["JavaScript", "ReactJS", "HTML/CSS", "Webpack", "TS", "Vite", "CICD"], "tokens": 140}
+{"id": "MATCH0049", "kind": "pair", "has": ["JavaScript", "HTML/CSS", "TS", "CICD"], "tokens": 116}
+{"id": "MATCH0052", "kind": "pair", "has": ["ReactJS", "TS", "Vite"], "tokens": 105}
+{"id": "MATCH0055", "kind": "pair", "has": [], "tokens": 124}
+{"id": "MATCH0058", "kind": "pair", "has": ["TS", "CICD"], "tokens": 108}
+{"id": "MATCH0060", "kind": "pair", "has": [], "tokens": 123}
+{"id": "MATCH0062", "kind": "pair", "has": ["SQL", "Hive", "Spark", "数仓", "python3", "数据建模", "ClickHouse", "Kafka"], "tokens": 160}
+{"id": "MATCH0064", "kind": "pair", "has": ["Hive", "Spark", "python3", "数据建模", "Kafka", "Linux"], "tokens": 149}
+{"id": "MATCH0065", "kind": "pair", "has": ["SQL", "Hive", "Spark", "数仓", "python3", "数据建模", "ClickHouse", "Kafka", "Linux"], "tokens": 43}
+{"id": "MATCH0067", "kind": "pair", "has": ["SQL", "Hive", "Spark", "数仓", "python3", "数据建模", "ClickHouse", "Kafka", "Linux"], "tokens": 158}
+{"id": "MATCH0068", "kind": "pair", "has": ["SQL", "Spark", "数仓", "数据建模", "Kafka"], "tokens": 128}
+{"id": "MATCH0070", "kind": "pair", "has": ["SQL", "Hive", "python3", "数据建模", "ClickHouse"], "tokens": 129}
+{"id": "MATCH0071", "kind": "pair", "has": ["Hive", "数仓", "数据建模", "ClickHouse", "Linux"], "tokens": 124}
+{"id": "MATCH0073", "kind": "pair", "has": ["Spark", "数据建模", "ClickHouse", "Kafka"], "tokens": 107}
+{"id": "MATCH0074", "kind": "pair", "has": ["Kafka"], "tokens": 50}
+{"id": "MATCH0076", "kind": "pair", "has": [], "tokens": 31}
+{"id": "MATCH0078", "kind": "pair", "has": ["kafka", "linux"], "tokens": 103}
+{"id": "MATCH0080", "kind": "pair", "has": ["Kafka", "Linux"], "tokens": 34}
+{"id": "MATCH0082", "kind": "pair", "has": ["机器学习", "深度学习", "PyTorch", "推荐算法", "python3", "大语言模型应用", "spark", "SQL"], "tokens": 86}
+{"id": "MATCH0084", "kind": "pair", "has": ["机器学习", "深度学习", "PyTorch", "推荐算法", "python3", "大语言模型应用", "spark", "SQL"], "tokens": 76}
+{"id": "MATCH0086", "kind": "pair", "has": ["机器学习", "深度学习", "PyTorch", "推荐算法", "python3", "NLP", "大语言模型应用", "spark", "SQL"], "tokens": 62}
+{"id": "MATCH0089", "kind": "pair", "has": ["PyTorch", "推荐算法", "SQL"], "tokens": 122}
+{"id": "MATCH0092", "kind": "pair", "has": ["推荐算法", "NLP", "大语言模型应用", "SQL"], "tokens": 28}
+{"id": "MATCH0095", "kind": "pair", "has": ["推荐算法"], "tokens": 37}
+{"id": "MATCH0098", "kind": "pair", "has": ["PyTorch", "推荐算法", "大语言模型应用", "spark", "NLP"], "tokens": 42}
+{"id": "MATCH0100", "kind": "pair", "has": ["推荐算法", "python3"], "tokens": 13}
+{"id": "MATCH0102", "kind": "pair", "has": ["结构化查询", "数据分析", "埋点与指标体系", "数据驱动决策", "Python", "tableau", "数据建模"], "tokens": 147}
+{"id": "MATCH0104", "kind": "pair", "has": ["结构化查询", "数据分析", "埋点与指标体系", "数据驱动决策", "Python", "tableau", "powerbi"], "tokens": 158}
+{"id": "MATCH0105", "kind": "pair", "has": ["结构化查询", "埋点与指标体系", "数据驱动决策", "Python", "tableau", "powerbi", "数据建模"], "tokens": 154}
+{"id": "MATCH0107", "kind": "pair", "has": ["结构化查询", "数据建模", "埋点与指标体系", "数据驱动决策", "Python", "tableau", "powerbi"], "tokens": 39}
+{"id": "MATCH0108", "kind": "pair", "has": ["数据分析", "数据驱动决策", "tableau", "数据建模"], "tokens": 118}
+{"id": "MATCH0110", "kind": "pair", "has": ["埋点与指标体系", "数据驱动决策", "tableau"], "tokens": 31}
+{"id": "MATCH0111", "kind": "pair", "has": ["结构化查询", "Python", "tableau", "powerbi"], "tokens": 146}
+{"id": "MATCH0113", "kind": "pair", "has": ["Python", "数据驱动决策", "数据建模", "powerbi"], "tokens": 33}
+{"id": "MATCH0114", "kind": "pair", "has": ["数据分析", "powerbi"], "tokens": 39}
+{"id": "MATCH0116", "kind": "pair", "has": ["Python"], "tokens": 33}
+{"id": "MATCH0118", "kind": "pair", "has": ["Python", "powerbi", "数据建模"], "tokens": 125}
+{"id": "MATCH0120", "kind": "pair", "has": ["Python", "数据分析", "数据驱动决策"], "tokens": 15}
+{"id": "MATCH0122", "kind": "pair", "has": ["需求分析", "产品需求文档", "竞品分析", "数据驱动决策", "用户研究", "Figma"], "tokens": 74}
+{"id": "MATCH0124", "kind": "pair", "has": ["需求分析", "产品需求文档", "竞品分析", "数据驱动决策", "Axure", "Figma"], "tokens": 60}
+{"id": "MATCH0126", "kind": "pair", "has": ["需求分析", "产品需求文档", "竞品分析", "数据驱动决策", "项目管理", "Axure", "用户研究", "高保真原型", "Figma"], "tokens": 99}
+{"id": "MATCH0129", "kind": "pair", "has": ["需求分析", "项目管理", "Axure"], "tokens": 133}
+{"id": "MATCH0132", "kind": "pair", "has": ["产品需求文档", "Axure", "Figma"], "tokens": 18}
+{"id": "MATCH0135", "kind": "pair", "has": ["需求分析", "产品需求文档", "项目管理"], "tokens": 37}
+{"id": "MATCH0138", "kind": "pair", "has": ["Axure", "Figma", "高保真原型", "数据驱动决策"], "tokens": 121}
+{"id": "MATCH0140", "kind": "pair", "has": ["数据驱动决策", "项目管理"], "tokens": 131}
+{"id": "MATCH0142", "kind": "pair", "has": ["figma", "视觉设计", "交互设计", "Sketch", "用户研究", "HTML/CSS"], "tokens": 31}
+{"id": "MATCH0144", "kind": "pair", "has": ["figma", "视觉设计", "交互设计", "高保真原型", "Sketch", "用户研究", "HTML/CSS"], "tokens": 55}
+{"id": "MATCH0145", "kind": "pair", "has": ["figma", "视觉设计", "交互设计", "Sketch", "用户研究", "HTML/CSS"], "tokens": 64}
+{"id": "MATCH0147", "kind": "pair", "has": ["figma", "Sketch", "高保真原型", "用户研究", "HTML/CSS", "交互设计"], "tokens": 39}
+{"id": "MATCH0148", "kind": "pair", "has": ["Sketch", "HTML/CSS"], "tokens": 129}
+{"id": "MATCH0150", "kind": "pair", "has": ["figma", "HTML/CSS", "用户研究"], "tokens": 126}
+{"id": "MATCH0151", "kind": "pair", "has": ["交互设计", "Sketch", "HTML/CSS"], "tokens": 120}
+{"id": "MATCH0153", "kind": "pair", "has": ["交互设计", "Sketch"], "tokens": 116}
+{"id": "MATCH0154", "kind": "pair", "has": ["figma", "用户研究"], "tokens": 25}
+{"id": "MATCH0156", "kind": "pair", "has": [], "tokens": 130}
+{"id": "MATCH0158", "kind": "pair", "has": ["Sketch", "HTML/CSS"], "tokens": 122}
+{"id": "MATCH0160", "kind": "pair", "has": [], "tokens": 91}
+{"id": "MATCH0162", "kind": "pair", "has": ["用户运营", "活动策划", "内容策划", "数据分析", "社群运营", "项目推进"], "tokens": 47}
+{"id": "MATCH0164", "kind": "pair", "has": ["用户运营", "活动策划", "内容策划", "数据分析", "社群运营", "新媒体运营", "投放优化"], "tokens": 63}
+{"id": "MATCH0166", "kind": "pair", "has": ["用户运营", "活动策划", "内容策划", "数据分析", "社群运营", "新媒体运营", "投放优化", "项目推进"], "tokens": 162}
+{"id": "MATCH0169", "kind": "pair", "has": ["用户运营", "活动策划", "投放优化", "项目推进"], "tokens": 133}
+{"id": "MATCH0172", "kind": "pair", "has": ["用户运营", "数据分析"], "tokens": 14}
+{"id": "MATCH0175", "kind": "pair", "has": ["用户运营", "数据分析", "项目推进"], "tokens": 48}
+{"id": "MATCH0178", "kind": "pair", "has": ["用户运营", "投放优化", "项目推进"], "tokens": 111}
+{"id": "MATCH0180", "kind": "pair", "has": ["用户运营", "数据分析", "项目推进"], "tokens": 98}
+{"id": "MATCH0182", "kind": "pair", "has": ["招聘管理", "绩效管理", "跨部门协作", "劳动法", "薪酬体系", "团队管理", "数据分析"], "tokens": 39}
+{"id": "MATCH0184", "kind": "pair", "has": ["招聘管理", "绩效管理", "跨部门协作", "劳动法", "合规风控", "数据分析", "团队管理"], "tokens": 48}
+{"id": "MATCH0185", "kind": "pair", "has": ["招聘管理", "绩效管理", "跨部门协作", "劳动法", "薪酬体系", "团队管理", "合规风控", "数据分析"], "tokens": 48}
+{"id": "MATCH0187", "kind": "pair", "has": ["招聘管理", "绩效管理", "跨部门协作", "劳动法", "薪酬体系", "团队管理", "合规风控", "数据分析"], "tokens": 74}
+{"id": "MATCH0188", "kind": "pair", "has": ["劳动法", "合规风控", "数据分析"], "tokens": 37}
+{"id": "MATCH0190", "kind": "pair", "has": ["绩效管理", "跨部门协作", "团队管理", "合规风控"], "tokens": 126}
+{"id": "MATCH0191", "kind": "pair", "has": ["绩效管理", "跨部门协作", "薪酬体系", "团队管理", "合规风控", "数据分析"], "tokens": 48}
+{"id": "MATCH0193", "kind": "pair", "has": ["薪酬体系", "合规风控", "招聘管理", "团队管理"], "tokens": 24}
+{"id": "MATCH0194", "kind": "pair", "has": ["绩效管理", "合规风控", "数据分析", "跨部门协作"], "tokens": 145}
+{"id": "MATCH0196", "kind": "pair", "has": [], "tokens": 15}
+{"id": "MATCH0198", "kind": "pair", "has": ["跨部门协作", "薪酬体系", "合规风控", "数据分析"], "tokens": 148}
+{"id": "MATCH0200", "kind": "pair", "has": ["数据分析"], "tokens": 134}
+{"id": "MATCH0202", "kind": "pair", "has": ["财务核算", "预算编制", "数据分析", "powerbi", "SQL"], "tokens": 136}
+{"id": "MATCH0204", "kind": "pair", "has": ["财务核算", "预算编制", "数据分析", "合同审核", "合规风控", "SQL"], "tokens": 38}
+{"id": "MATCH0206", "kind": "pair", "has": ["财务核算", "预算编制", "数据分析", "合同审核", "合规风控", "powerbi", "SQL"], "tokens": 63}
+{"id": "MATCH0209", "kind": "pair", "has": ["预算编制", "SQL", "powerbi"], "tokens": 122}
+{"id": "MATCH0212", "kind": "pair", "has": ["预算编制", "数据分析", "合规风控", "powerbi", "SQL"], "tokens": 136}
+{"id": "MATCH0215", "kind": "pair", "has": ["数据分析", "SQL"], "tokens": 128}
+{"id": "MATCH0218", "kind": "pair", "has": ["合规风控", "数据分析", "powerbi", "SQL"], "tokens": 132}
+{"id": "MATCH0220", "kind": "pair", "has": ["财务核算", "预算编制", "数据分析", "合规风控"], "tokens": 105}
+{"id": "MATCH0222", "kind": "pair", "has": ["Python", "SQL", "linux", "CI/CD", "Java", "Jenkins", "Shell"], "tokens": 129}
+{"id": "MATCH0224", "kind": "pair", "has": ["Python", "SQL", "linux", "CI/CD", "Java", "Jenkins", "Kubernetes"], "tokens": 144}
+{"id": "MATCH0225", "kind": "pair", "has": ["Python", "SQL", "linux", "CI/CD", "Java", "容器化", "Jenkins", "Shell", "Kubernetes"], "tokens": 47}
+{"id": "MATCH0227", "kind": "pair", "has": ["Python", "SQL", "linux", "CI/CD", "Java", "容器化", "Jenkins", "Shell", "Kubernetes"], "tokens": 150}
+{"id": "MATCH0228", "kind": "pair", "has": ["Python", "SQL", "Java", "Kubernetes"], "tokens": 120}
+{"id": "MATCH0230", "kind": "pair", "has": ["SQL", "Java", "Jenkins", "linux"], "tokens": 111}
+{"id": "MATCH0231", "kind": "pair", "has": ["CI/CD", "Python", "Java", "Jenkins", "Shell"], "tokens": 129}
+{"id": "MATCH0233", "kind": "pair", "has": ["Python", "Jenkins", "Shell", "Kubernetes", "Java"], "tokens": 127}
+{"id": "MATCH0234", "kind": "pair", "has": ["Python", "SQL"], "tokens": 52}
+{"id": "MATCH0236", "kind": "pair", "has": ["Java"], "tokens": 14}
+{"id": "MATCH0238", "kind": "pair", "has": ["Java", "容器化", "Jenkins", "Shell"], "tokens": 130}
+{"id": "MATCH0240", "kind": "pair", "has": ["SQL"], "tokens": 81}
